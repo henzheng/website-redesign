@@ -1,0 +1,46 @@
+[
+    {
+        "position": "Intern",
+        "url": "https://www.tygasmart.com/",
+        "workplace": "TygaSmart Systems",
+        "timeframe": "Feb 2023 - Apr 2023",
+        "description": [
+            "Coordinated with the web development team and used Figma to design and implement a new layout for the company's web app",
+            "Organized and collected a diverse range of 2D and 3D furniture assets to assist in the creation of the company's digital floor planner"
+        ],
+        "id": "TS"
+    },
+    {
+        "position": "Intern",
+        "url": "https://agscard.com/",
+        "workplace": "AGS Card Grading",
+        "timeframe": "Jul 2022 - Aug 2022",
+        "description": [
+            "Worked as a IT intern for software development, utilized knowledge of AV editing to help with advertisement and production",
+            "Collaborated closely with peers over multiple social media and communication platforms to assist with customer accquistion"
+        ],
+        "id": "AGS"
+    },
+    {
+        "position": "Intern",
+        "url" : "https://unitedactivities.org/",
+        "workplace": "United Activities Unlimited",
+        "timeframe": "Jul 2021 - Aug 2021",
+        "description": [
+            "Developed leadership, time management, communication, and a number of other skills applicable to all professions, as well as my understanding of the profession I want to pursue",
+            "Fulfilled the two roles of host and audio technician for the cohort’s final live presentation"
+        ],
+        "id": "UAU"
+    },
+    {
+        "position": "Volunteer",
+        "url": "https://luvmichael.com/",
+        "workplace": "Luv Michael",
+        "timeframe": "Jan 2021 - Feb 2021",
+        "description": [
+            "Advocated for autism acceptance in adults and supported their education and employment",
+            "Fundraised and spread awareness for the cause through various social media & messaging platforms"
+        ],
+        "id": "LM"
+    }
+]
