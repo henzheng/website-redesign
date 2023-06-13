@@ -16,7 +16,8 @@ module.exports = {
             fontFamily: {
                 "web": "Titillium Web, sans-serif",
                 "mono": "Roboto Mono, monospace",
-                "nunito": "Nunito Sans, sans-serif"
+                "nunito": "Nunito Sans, sans-serif",
+                "poppins": "Poppins, sans-serif"
             }
         },
     },

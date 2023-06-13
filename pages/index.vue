@@ -1,31 +1,25 @@
 <template>
-    <header class="flex justify-end pt-16 px-8 fixed">
-        <nav class="flex gap-5 ml-auto w-[300px]">
-            <NuxtLink to="/">About</NuxtLink>
-            <NuxtLink to="/">Projects</NuxtLink>
-            <NuxtLink to="/">Blog</NuxtLink>
-        </nav>
-    </header>
-    <div class="pt-[6.5rem] px-0 pb-[5.5rem] mt-0 mx-[2rem]">
-        <div class="text-[3rem] mr-auto">
-            <span class="text-base font-nunito">Hey I'm</span>
-            <h1 class="bg-gradient-to-r text-transparent bg-clip-text from-green-500 to-blue-700 font-web">Henry Zheng</h1>
+    <div class="pt-[6.5rem] px-0 pb-[5.5rem] mt-0 mx-[2rem] w-full">
+        <div class="text-[3rem] mr-auto flex flex-col gap-2">
+            <div class="flex flex-row items-center gap-[0.35rem] justify-between">
+                <div>
+                    <h1 class="font-poppins"><span class="font-poppins text-base">Hey I'm</span><br>Henry Zheng</h1>
+                    <h2 class="text-xl font-poppins">Programmer, Tech Enthusiast</h2>
+                    <span class="text-lg">Currently a student @ Staten Island Technical High School 🎓</span>
+                </div>
+                <img class="aspect-square w-1/4" src="/show.png" alt="profile picture">
+            </div>
         </div>
-        <div class="flex items-center gap-[0.35rem] text-2xl font-light">
-            <h2>
-                Programmer, Tech Enthusiast
-                <br>
-                <span class="text-base font-web underline underline-offset-2">Currently a student @ Staten Island Technical High School 🎓</span>
-            </h2>
-        </div>
-        <div class="mt-[2.25rem] text-base font-web leading-[30px]">
-            Hello, my name is Henry! I'm a high school student aspiring to be a software engineer.
-            I was introduced to the world of programming through the TI-84 Calculator. 
-            Surprisingly, messing around with TI-Basic teaches you a lot of core programming principles!
-            After this experience sparked my curiousity, I went on to learn Python as my first programming language. 
-            Many of my early projects were Discord bots made using Discord.py, an API wrapper for Discord. 
-            However, recently I have been much more interested in web development and machine learning. 
-            For instance, this website was built using Nuxt.js and Tailwind CSS!
+        <div class="mt-[2.25rem]">
+            <p class="text-sm font-poppins leading-7 pr-12">
+                Welcome to my portfolio website!
+                I'm Henry, a high school student with a strong ambition to become a skilled software engineer.
+                <i>I aim to create engaging, accessible apps for the web.</i>
+                When it comes to JavaScript frameworks, <i>Nuxt.js</i> is my go-to choice, and I have over three years of hands-on experience in web development.
+                I'm constantly expanding my knowledge by embracing new technologies and eagerly seeking new opportunities to grow.
+                Feel free to explore my website and discover more about my journey!
+                Thank you for visiting and taking the time to explore my personal portfolio!
+            </p>
         </div>
     </div>
 </template>
