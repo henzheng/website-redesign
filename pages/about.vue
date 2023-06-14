@@ -5,9 +5,10 @@
                 <h1 class="font-poppins text-[2rem] mr-4">01. My Journey </h1>
                 <hr class="border-[1.5px] border-black w-[200px]">
             </div>
-            <img class="w-1/2" src="/picnic.png" alt="picnic">
+            <img class="w-1/2" src="/images/picnic.png" alt="picnic">
             <div class="flex flex-col justify-between items-center gap-4">
                 <p class="text-sm font-poppins leading-7 mt-2">
+                    Hey, Henry here!
                     I was introduced to the world of programming through the TI-84 Calculator. 
                     Surprisingly, messing around with TI-Basic teaches you a lot of <i>core programming principles!</i>
                     After this experience sparked my curiousity, I went on to learn <i>Python</i> as my first programming language. 
@@ -16,25 +17,12 @@
                     In fact, this website was built using <i>Nuxt.js and Tailwind CSS!</i>
                 </p>
                 <p class="text-sm font-poppins leading-7 mt-2">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                    Quas, eius voluptatum quidem architecto repellendus temporibus odit excepturi, illum earum, pariatur accusantium! 
-                    Dolorem recusandae vero eum dignissimos exercitationem! 
-                    Repellendus, ipsa animi.
+                    Growing up in the vibrant metropolis of New York City, I've always lived by the motto "Excelsior," meaning "ever upward." 
+                    This motto resonates deeply with my approach to programming. 
+                    I firmly believe in the power of constant improvement and never settling for mediocrity. 
+                    With each project, I strive to push boundaries, embrace innovation, and deliver exceptional web experiences. 
                 </p>
             </div>
-            <!-- <div class="flex flex-row w-full items-center mt-10">
-                <h1 class="font-poppins text-[2rem] mr-4">02. Work & Experience </h1>
-                <hr class="border-[1.5px] border-black w-[200px]">
-            </div>
-            <div class="flex flex-row justify-between items-center gap-4">
-                <img class="w-1/2" src="/mining.png" alt="mining">
-                <p class="text-sm font-poppins leading-7 mt-2">
-                    Over the course of my high school career, I have always been proactive in seeking out internship opportunities. 
-                    I've been fortunate enough to have the opportunity to work for various tech companies, where <i>I honed my programming abilities and learned to adapt to a professional environment.</i> 
-                    These internships have provided me with invaluable insights into the tech industry, and allowed me to work alongside experienced professionals.
-                    Through these experiences, I have grown both personally and professionally, paving the way for a promising future in the field of technology.
-                </p>
-            </div> -->
         </div>
     </div>
 </template>

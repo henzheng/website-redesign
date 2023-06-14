@@ -5,20 +5,22 @@
                 <div>
                     <h1 class="font-poppins"><span class="font-poppins text-base">Hey I'm</span><br>Henry Zheng</h1>
                     <h2 class="text-xl font-poppins">Programmer, Tech Enthusiast</h2>
-                    <span class="text-lg">Currently a student @ Staten Island Technical High School 🎓</span>
+                    <span class="text-base font-poppins">Currently a student @ Staten Island Technical High School 🎓</span>
                 </div>
-                <img class="aspect-square w-1/4" src="/show.png" alt="profile picture">
+                <img class="aspect-square w-1/4" src="/images/profile.png" alt="profile picture">
             </div>
         </div>
         <div class="mt-[2.25rem]">
             <p class="text-sm font-poppins leading-7 pr-12">
                 Welcome to my portfolio website!
-                I'm Henry, a high school student with a strong ambition to become a skilled software engineer.
+                I'm Henry, a high school student from NYC with a strong ambition to become a skilled software engineer.
                 <i>I aim to create engaging, accessible apps for the web.</i>
                 When it comes to JavaScript frameworks, <i>Nuxt.js</i> is my go-to choice, and I have over three years of hands-on experience in web development.
                 I'm constantly expanding my knowledge by embracing new technologies and eagerly seeking new opportunities to grow.
+                In my free time, I enjoy watching anime, playing videogames, going on short runs, and listening to music.
+                Some of my favorite genres are K-pop, J-pop, and R&B.
                 Feel free to explore my website and discover more about my journey!
-                Thank you for visiting and taking the time to explore my personal portfolio!
+                Thanks for visiting and taking the time to explore my personal portfolio!
             </p>
         </div>
     </div>
