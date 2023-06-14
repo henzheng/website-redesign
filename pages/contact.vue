@@ -8,10 +8,10 @@
             <img class="w-1/2" src="/images/pla-pokedex.png" alt="pla-pokedex">
             <p class="font-poppins text-sm mt-5">
                 Feel free to send a message through social media or email if you want to get in touch!
-                The best way to contact me is via email.
+                <i>The best way to contact me is via email.</i>
                 I'm always open to new opportunities and learning experiences. 
-                I check my inboxes often, so I'll try my best to get back to you as soon as possible.
-                If you prefer, you can also send me a friend request on Discord @coori.
+                I check my inboxes often, so I'll try my best to get back to you <i>as soon as possible.</i>
+                If you prefer, you can also send me a friend request on Discord <i>@coori.</i>
                 Let's connect and explore the possibilities together!
             </p>
         </div>
@@ -30,7 +30,7 @@
     </div>
 </template>
 
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 const email = reactive({
     name: String,
     content: String,
@@ -38,5 +38,4 @@ const email = reactive({
 async function sendEmail(){
 
 }
-
-</script>
+</script> -->
