@@ -17,7 +17,6 @@
             </p>
             <Tabs/>
         </div>
-        <!-- Make Skills Section / Pokemon Badges Here -->
         <div class="flex flex-row w-full items-center">
             <h1 class="font-poppins text-2xl mr-4">My Skills </h1>
             <hr class="border-[1.5px] border-black w-[200px]">
