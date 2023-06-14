@@ -16,7 +16,7 @@
                     However, in recent years, I have been much more interested in <i>web development and machine learning</i>. 
                     In fact, this website was built using <i>Nuxt.js and Tailwind CSS!</i>
                 </p>
-                <p class="text-sm font-poppins leading-7 mt-2">
+                <p class="text-sm font-poppins leading-7 mt-2 mb-4">
                     Growing up in the vibrant metropolis of New York City, I've always lived by the motto "Excelsior," meaning "ever upward." 
                     This motto resonates deeply with my approach to programming. 
                     I firmly believe in the power of constant improvement and never settling for mediocrity. 
@@ -26,6 +26,3 @@
         </div>
     </div>
 </template>
-
-<style scoped>
-</style>

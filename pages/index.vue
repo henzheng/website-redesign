@@ -5,7 +5,7 @@
                 <div>
                     <h1 class="font-poppins"><span class="font-poppins text-base">Hey I'm</span><br>Henry Zheng</h1>
                     <h2 class="text-xl font-poppins">Programmer, Tech Enthusiast</h2>
-                    <span class="text-base font-poppins">Currently a student @ Staten Island Technical High School 🎓</span>
+                    <span class="text-base font-poppins">Currently a student <a class="text-[#00a6ed]" href="https://siths.org/">@ Staten Island Technical High School 🎓</a></span>
                 </div>
                 <img class="aspect-square w-1/4" src="/images/profile.png" alt="profile picture">
             </div>

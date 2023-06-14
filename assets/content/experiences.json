@@ -11,7 +11,18 @@
         "id": "TS"
     },
     {
-        "position": "IT Intern",
+        "position": "Lead Developer",
+        "url": "https://bruzzeses.com/",
+        "workplace": "Bruzzese’s Italian Gourmet",
+        "timeframe": "Sep 2022 - Present",
+        "description": [
+            "Developed and deployed a web application that serves as an order management system, helping employees keep track of upcoming and previous orders and streamlining operations",
+            "Worked independently and collaboratively within a team to deliver a high-quality product"
+        ],
+        "id": "BG"
+    },
+    {
+        "position": "Information Technology Intern",
         "url": "https://agscard.com/",
         "workplace": "AGS Card Grading",
         "timeframe": "Jul 2022 - Aug 2022",
@@ -31,16 +42,5 @@
             "Fulfilled the two roles of host and audio technician for the cohort’s final live presentation"
         ],
         "id": "UAU"
-    },
-    {
-        "position": "Volunteer",
-        "url": "https://luvmichael.com/",
-        "workplace": "Luv Michael",
-        "timeframe": "Jan 2021 - Feb 2021",
-        "description": [
-            "Advocated for autism acceptance in adults and supported their education and employment",
-            "Fundraised and spread awareness for the cause through various social media & messaging platforms"
-        ],
-        "id": "LM"
     }
 ]

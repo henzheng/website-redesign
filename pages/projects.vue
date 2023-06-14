@@ -5,7 +5,7 @@
                 <h1 class="font-poppins text-[2rem] mr-4">03. My Projects </h1>
                 <hr class="border-[1.5px] border-black w-[200px]">
             </div>
-            <img class="w-1/2" src="/picnic.png" alt="picnic">
+            <img class="w-1/2" src="/images/picnic.png" alt="picnic">
         </div>
     </div>
 </template>

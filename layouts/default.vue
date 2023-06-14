@@ -4,4 +4,5 @@
         <slot/>
     </div>
     <Social/>
+    <Credits/>
 </template>

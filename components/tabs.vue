@@ -79,7 +79,7 @@ function openTab(event) {
 }
 
 .tab button.active {
-    border-left: #48cae4 solid 2px;
+    border-left: #00a6ed solid 2px;
 }
 
 .tabcontent {
@@ -102,7 +102,7 @@ function openTab(event) {
 }
 
 .tabcontent a {
-    color: #48cae4;
+    color: #00a6ed;
 }
 
 .tabcontent li {
