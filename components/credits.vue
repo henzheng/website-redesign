@@ -8,6 +8,6 @@
             <Icon name="ion:logo-instagram" color="black" />
             <Icon name="ion:logo-linkedin" color="black" />
         </ul>
-        <h3 class="font-poppins font-normal text-base">Created and Deployed by Henry Zheng</h3>
+        <h3 class="font-poppins font-normal text-base">Created & Deployed by Henry Zheng</h3>
     </footer>
 </template>
