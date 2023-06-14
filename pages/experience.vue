@@ -19,27 +19,3 @@
         </div>
     </div>
 </template>
-
-<script setup>
-import data from "~/assets/content/experiences.json";
-console.log(data);
-
-function openTab(event) {
-    let i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className = "tablinks text-left whitespace-nowrap";
-    }
-
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    const tabId = event.currentTarget.getAttribute("link");
-    document.getElementById(tabId).style.display = "block";
-    event.currentTarget.className += " active";
-    event.currentTarget.className.replace("border-black", "border-skyblue")
-}
-</script>
