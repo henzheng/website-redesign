@@ -48,7 +48,7 @@ function openTab(event) {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 300px;
+    height: 200px;
     font-family: 'Poppins', sans-serif;
     gap: 3rem;
 }
