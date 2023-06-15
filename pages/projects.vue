@@ -18,9 +18,9 @@
                 :project-name="project.projectName"
             />
         </div>
-        <!-- <h3 class="font-poppins text-base text-center mb-5">
-            Want to see more? View my <a class="text-[#00a6ed]" href="https://github.com/nullZheng">Github profile!</a>
-        </h3> -->
+        <h3 class="font-poppins text-base text-center my-6 mr-[2rem]">
+            Want to see more of my work? View my <a class="text-[#00a6ed]" href="https://github.com/nullZheng">Github profile!</a>
+        </h3>
     </div>
 </template>
 

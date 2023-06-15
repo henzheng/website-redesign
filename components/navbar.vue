@@ -28,6 +28,7 @@ function changeTheme() {
     isLightTheme.value = !isLightTheme.value;
 }
 </script>
+
 <style scoped>
 .background {
     background: linear-gradient(hsla(0,0%,100%,0.925),hsla(0,0%,100%,0.925)), url('/images/sinnoh.jpg');

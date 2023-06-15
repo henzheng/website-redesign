@@ -12,7 +12,8 @@
                     I was introduced to the world of programming through the TI-84 Calculator. 
                     Surprisingly, messing around with TI-Basic teaches you a lot of <i>core programming principles!</i>
                     After this experience sparked my curiousity, I went on to learn <i>Python</i> as my first programming language. 
-                    Many of my early projects were Discord bots made using Discord.py, an API wrapper for Discord. 
+                    Many of my early projects were Discord bots made using Discord.py, an API wrapper for Discord.
+                    I have four years of programming experience and three years of web development experience. 
                     However, in recent years, I have been much more interested in <i>web development and machine learning</i>. 
                     In fact, this website was built using <i>Nuxt.js and Tailwind CSS!</i>
                 </p>

@@ -15,6 +15,10 @@
                 Through these experiences, I have grown both personally and professionally, paving the way for a promising future in the field of technology.
                 For a more comprehensive overview, take a look at my resume!
             </p>
+            <div class="flex flex-row w-full items-center">
+                <h1 class="font-poppins text-2xl mr-4">Jobs & Internships</h1>
+                <hr class="border-[1.5px] border-black w-[200px]">
+            </div>
             <Tabs/>
         </div>
         <div class="flex flex-row w-full items-center">
