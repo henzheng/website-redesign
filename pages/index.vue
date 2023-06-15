@@ -17,7 +17,7 @@
                 <i>I aim to create engaging, accessible apps for the web.</i>
                 When it comes to JavaScript frameworks, <i>Nuxt.js</i> is my go-to choice, and I have over three years of hands-on experience in web development.
                 I'm constantly expanding my knowledge by embracing new technologies and eagerly seeking new opportunities to grow.
-                One of my goals for the upcoming year is to get better at competitive programming and familiarizing myself with C++.
+                For instance, one of my goals for this upcoming year is to get better at <i>competitive programming</i> and familiarize myself with C++.
                 In my free time, I enjoy watching anime, playing videogames, going on short runs, and listening to music.
                 Some of my favorite genres are K-pop, J-pop, and R&B.
                 Feel free to explore my website and discover more about my journey!

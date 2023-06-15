@@ -20,7 +20,8 @@
                     Growing up in the vibrant metropolis of New York City, I've always lived by the motto "Excelsior," meaning "ever upward." 
                     This motto resonates deeply with my approach to programming. 
                     I firmly believe in the power of constant improvement and never settling for mediocrity. 
-                    With each project, I strive to push boundaries, embrace innovation, and deliver exceptional web experiences. 
+                    With each project, I strive to push boundaries, embrace innovation, and deliver exceptional web experiences.
+                    I'm planning to major in Computer Science in the near future to pursue my dreams of becoming a software engineer.
                 </p>
             </div>
         </div>
