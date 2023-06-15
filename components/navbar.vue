@@ -8,11 +8,8 @@
             <NuxtLink to="/contact">Contact</NuxtLink>
             <a href="/resume.pdf">Resume</a>
             <div class="flex flex-row gap-3 items-center ml-auto">
-                <Icon 
-                    class="text-xl cursor-pointer" 
-                    :name="isLightTheme ? 'material-symbols:dark-mode' : 'material-symbols:light-mode'" 
-                    @click="changeTheme"
-                />
+                <Icon v-if="isLightTheme" class="text-xl cursor-pointer" name="material-symbols:dark-mode" @click="changeTheme"/>
+                <Icon v-else class="text-xl cursor-pointer text-white" name="material-symbols:light-mode" @click="changeTheme"/>
                 <NuxtLink to="/">
                     <img class="w-6 h-6" src="/images/pokeball.png" alt="pokeball">
                 </NuxtLink>
