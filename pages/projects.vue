@@ -44,7 +44,7 @@ const data = [
     },
     {
         url: "https://github.com/nullZheng/Data-Visualization",
-        imagePath: "/images/twitter.jpg",
+        imagePath: "/images/starters.jpg",
         projectName: "Pokemon Data Visualization",
         projectRole: "Sole Developer",
         description: "Take a look at the data behind the with original 151 Pokemon with stunning visuals and a new perspective.",
