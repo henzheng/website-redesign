@@ -9,13 +9,13 @@
                 Feel free to send a message through social media or email if you want to get in touch!
                 <i>The best way to contact me is via email.</i>
                 I'm always open to new opportunities and learning experiences. 
-                I check my inboxes often, so I'll try my best to get back to you <i>as soon as possible.</i>
+                I check my inboxes often, so I'll try my best to get back to you as soon as possible.
                 If you prefer, you can also send me a friend request on Discord <i>@coori.</i>
                 Let's connect and explore the possibilities together!
             </p>
             <!-- <img class="w-1/2" src="/images/pla-pokedex.png" alt="pla-pokedex"> -->
             <section>
-                <div class="relative top-[5rem] left-[15rem] w-[400px] flex flex-row p-5 bg-white rounded shadow-2xl isometric">
+                <!-- <div class="relative top-[5rem] left-[15rem] w-[400px] flex flex-row p-5 bg-white rounded shadow-2xl isometric">
                     <div class="flex flex-col font-poppins w-3/4">
                         <h3 class="text-2xl">Henry Zheng</h3>
                         <p class="text-lg">Fullstack Developer</p>
@@ -26,8 +26,9 @@
                         </div>
                     </div>
                     <img class="aspect-square w-1/3 h-1/3" src="/images/profile.png" alt="profile">
-                </div>
-                <div class="relative bottom-[8rem] right-[11.5rem] flex flex-col justify-center items-center w-[400px] bg-white rounded shadow-2xl p-6">
+                </div> -->
+                <img class="relative left-[20rem] top-[4rem] w-1/2" src="/images/pla-re-full.png" alt="profile">
+                <div class="relative bottom-[14rem] right-[11.5rem] flex flex-col justify-center items-center w-[400px] bg-white rounded shadow-2xl p-6">
                     <h3 class="font-poppins text-2xl mb-2">Send me a message!</h3>
                     <form @submit.prevent="sendEmail"
                         autocomplete="off"
