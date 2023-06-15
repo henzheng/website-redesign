@@ -14,10 +14,10 @@ module.exports = {
                 "secondary-blue": "#0a192f"
             },
             fontFamily: {
-                "web": "Titillium Web, sans-serif",
-                "mono": "Roboto Mono, monospace",
                 "nunito": "Nunito Sans, sans-serif",
-                "poppins": "Poppins, sans-serif"
+                "poppins": "Poppins, sans-serif",
+                "comfortaa": "Comfortaa, cursive",
+                "quicksand": "Quicksand, sans-serif",
             }
         },
     },

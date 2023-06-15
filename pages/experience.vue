@@ -29,22 +29,22 @@
         <div class="flex flex-row flex-wrap items-center mt-4 mb-2 h-[200px]">
             <div class="flex flex-col items-center h-full w-1/4 gap-3">
                 <p class="font-poppins text-lg">Languages</p>
-                <img class="aspect-square w-[90px]" src="/images/heat-badge.png" alt="Heat Badge">
+                <img class="aspect-square w-[90px]" src="/images/heat-badge.png" alt="heat badge">
                 <p class="font-poppins text-sm text-center">HTML, CSS, Javascript, Typescript, Python</p>
             </div>
             <div class="flex flex-col items-center h-full w-1/4 gap-3">
                 <p class="font-poppins text-lg">Frameworks</p>
-                <img class="aspect-square w-[90px]" src="/images/knuckle-badge.png" alt="Knuckle Badge">
+                <img class="aspect-square w-[90px]" src="/images/knuckle-badge.png" alt="knuckle badge">
                 <p class="font-poppins text-sm text-center">Nuxt.js, Vue.js, React, Express.js, Django</p>
             </div>
             <div class="flex flex-col items-center h-full w-1/4 gap-3">
                 <p class="font-poppins text-lg">Certifications</p>
-                <img class="aspect-square w-[90px]" src="/images/dynamo-badge.png" alt="Dynamo Badge">
+                <img class="aspect-square w-[90px]" src="/images/dynamo-badge.png" alt="dynamo badge">
                 <p class="font-poppins text-sm text-center">TestDome Certified in Python and JS</p>
             </div>
             <div class="flex flex-col items-center h-full w-1/4 gap-3">
                 <p class="font-poppins text-lg">Collaboration</p>
-                <img class="aspect-square w-[90px]" src="/images/feather-badge.png" alt="Feather Badge">
+                <img class="aspect-square w-[90px]" src="/images/feather-badge.png" alt="feather badge">
                 <p class="font-poppins text-sm text-center">Adaptable, Familiar with Git workflows</p>
             </div>
         </div>

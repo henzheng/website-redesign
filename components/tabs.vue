@@ -62,7 +62,7 @@ function openTab(event) {
 
 .tab button {
     font-family: 'Poppins', sans-serif;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     line-height: 1.25rem;
     border: none;
     border-left: black solid 2px;

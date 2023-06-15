@@ -10,7 +10,7 @@
                 <i>The best way to contact me is via email.</i>
                 I'm always open to new opportunities and learning experiences. 
                 I check my inboxes often, so I'll try my best to get back to you as soon as possible.
-                If you prefer, you can also send me a friend request on Discord <i>@coori.</i>
+                If you prefer, you can also send me a friend request on Discord @coori.
                 Let's connect and explore the possibilities together!
             </p>
             <!-- <img class="w-1/2" src="/images/pla-pokedex.png" alt="pla-pokedex"> -->

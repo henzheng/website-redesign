@@ -1,17 +1,19 @@
 <template>
     <header class="flex top-0 ml-8 fixed w-full max-w-[768px] m-auto z-20">
         <nav class="flex pt-10 pb-4 gap-5 w-full font-poppins items-center background">
-            <NuxtLink to="/about">About</NuxtLink>
-            <NuxtLink to="/experience">Experience</NuxtLink>
-            <NuxtLink to="/projects">Projects</NuxtLink>
-            <NuxtLink to="/blog">Blog</NuxtLink>
-            <NuxtLink to="/contact">Contact</NuxtLink>
-            <a href="/resume.pdf">Resume</a>
+            <ul class="flex flex-row gap-5">
+                <li><NuxtLink class="hover-underline-animation" to="/about">About</NuxtLink></li>
+                <li><NuxtLink class="hover-underline-animation" to="/experience">Experience</NuxtLink></li>
+                <li><NuxtLink class="hover-underline-animation" to="/projects">Projects</NuxtLink></li>
+                <li><NuxtLink class="hover-underline-animation" to="/blog">Blog</NuxtLink></li>
+                <li><NuxtLink class="hover-underline-animation" to="/contact">Contact</NuxtLink></li>
+                <li><a class="hover-underline-animation" href="/resume.pdf">Resume</a></li>
+            </ul>
             <div class="flex flex-row gap-3 items-center ml-auto">
-                <Icon v-if="isLightTheme" class="text-xl cursor-pointer" name="material-symbols:dark-mode" @click="changeTheme"/>
-                <Icon v-else class="text-xl cursor-pointer text-white" name="material-symbols:light-mode" @click="changeTheme"/>
+                <Icon v-if="isLightTheme" class="text-xl cursor-pointer transition ease-in-out hover:rotate-45" name="material-symbols:dark-mode" @click="changeTheme"/>
+                <Icon v-else class="text-xl cursor-pointer text-white transition ease-in-out hover:rotate-45" name="material-symbols:light-mode" @click="changeTheme"/>
                 <NuxtLink to="/">
-                    <img class="w-6 h-6" src="/images/pokeball.png" alt="pokeball">
+                    <img class="w-6 h-6 transition ease-in-out hover:animate-bounce" src="/images/pokeball.png" alt="pokeball">
                 </NuxtLink>
             </div>
         </nav>
@@ -33,4 +35,26 @@ function changeTheme() {
     background-attachment: fixed;
     background-size: cover;
 }
+.hover-underline-animation {
+    position: relative;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+    transform: scaleX(0);
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    background: black;
+    transform-origin: bottom left;
+}
+
 </style>

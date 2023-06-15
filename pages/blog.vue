@@ -5,7 +5,15 @@
                 <h1 class="font-poppins text-[2rem] mr-4">04. My Blog </h1>
                 <hr class="border-[1.5px] border-black w-[200px]">
             </div>
-            <h2 class="font-poppins text-lg mb-2 self-start">Gotta Code 'Em All!</h2>
+            <div class="flex flex-col mb-5">
+                <h2 class="font-poppins text-xl mb-2 self-start">Gotta Code 'Em All!</h2>
+                <p class="font-poppins text-sm">
+                    Join me as I document my journey and challenges I encounter during my programming adventure.
+                    I'll share my experiences, insights, and lessons learned as I navigate through new technologies in the ever-evolving landscape of coding, design and user experience.
+                    My goal is to provide valuable content that educates and inspires fellow developers as well as beginners.
+                </p>
+            </div>
+            <!-- <h2 class="font-poppins text-lg mb-2 self-start">Code and Capture: A Pokémon Trainer's Web Development Journey</h2> -->
             <!-- Code and Capture: A Pokémon Trainer's Web Development Journey -->
             <div class="banner">
                 <h3 class="font-poppins text-white text-xl opacity-90">Page Under Construction, Check Back Soon!</h3>
