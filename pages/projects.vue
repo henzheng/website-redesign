@@ -49,6 +49,14 @@ const data = [
         projectRole: "Sole Developer",
         description: "Take a look at the data behind the with original 151 Pokemon with stunning visuals and a new perspective.",
         technologies: ["Svelte", "D3.js", "Chart.js"]
+    },
+    {
+        url: "https://random-valorant.netlify.app",
+        imagePath: "/images/valorant.jpg",
+        projectName: "Random Valorant Generator",
+        projectRole: "Sole Developer",
+        description: "Don't know what to choose? Generate agents or maps to randomize your gameplay.",
+        technologies: ["HTML", "CSS", "Javascript"]
     }
 ]
 </script>
