@@ -5,7 +5,7 @@
                 <h1 class="font-poppins text-[2rem] mr-4">01. My Journey </h1>
                 <hr class="border-[1.5px] border-black w-[200px]">
             </div>
-            <img class="w-1/2" src="/images/picnic.png" alt="picnic">
+            <img class="w-1/2" src="/images/pla-camp.png" alt="camp">
             <div class="flex flex-col justify-between items-center gap-4">
                 <p class="text-sm font-poppins leading-7 mt-2">
                     Hey, Henry here!

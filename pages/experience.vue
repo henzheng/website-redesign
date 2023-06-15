@@ -5,7 +5,7 @@
                 <h1 class="font-poppins text-[2rem] mr-4">02. Working Experiences </h1>
                 <hr class="border-[1.5px] border-black w-[200px]">
             </div>
-            <img class="w-1/2" src="/images/mining.png" alt="mining">
+            <img class="w-1/2" src="/images/pla-mining.png" alt="mining">
         </div>
         <div class="flex flex-col justify-between gap-8">
             <p class="text-sm font-poppins leading-7 mt-2">
@@ -25,22 +25,22 @@
         <div class="flex flex-row flex-wrap items-center mt-4 mb-2 h-[200px]">
             <div class="flex flex-col items-center h-full w-1/4 gap-3">
                 <p class="font-poppins">Languages</p>
-                <img class="aspect-square w-[90px]" src="/images/Heat_Badge.png" alt="Heat_Badge">
+                <img class="aspect-square w-[90px]" src="/images/heat-badge.png" alt="Heat Badge">
                 <p class="font-poppins text-sm text-center">HTML, CSS, Javascript, Typescript, Python</p>
             </div>
             <div class="flex flex-col items-center h-full w-1/4 gap-3">
                 <p class="font-poppins">Frameworks</p>
-                <img class="aspect-square w-[90px]" src="/images/Knuckle_Badge.png" alt="Knuckle_Badge">
+                <img class="aspect-square w-[90px]" src="/images/knuckle-badge.png" alt="Knuckle Badge">
                 <p class="font-poppins text-sm text-center">Nuxt.js, Vue.js, React, Express.js, Django</p>
             </div>
             <div class="flex flex-col items-center h-full w-1/4 gap-3">
                 <p class="font-poppins">Certifications</p>
-                <img class="aspect-square w-[90px]" src="/images/Dynamo_Badge.png" alt="Dynamo_Badge">
-                <p class="font-poppins text-sm text-center">TestDome Certified in Javascript and Python</p>
+                <img class="aspect-square w-[90px]" src="/images/dynamo-badge.png" alt="Dynamo Badge">
+                <p class="font-poppins text-sm text-center">TestDome Certified in Python and Javascript</p>
             </div>
             <div class="flex flex-col items-center h-full w-1/4 gap-3">
                 <p class="font-poppins">Collaboration</p>
-                <img class="aspect-square w-[90px]" src="/images/Feather_Badge.png" alt="Feather_Badge">
+                <img class="aspect-square w-[90px]" src="/images/feather-badge.png" alt="Feather Badge">
                 <p class="font-poppins text-sm text-center">Adaptable, Familiar with Git workflows</p>
             </div>
         </div>
