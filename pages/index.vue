@@ -7,7 +7,7 @@
                     <h2 class="text-xl font-poppins">Programmer, Tech Enthusiast</h2>
                     <span class="text-base font-poppins">Currently a student <a class="text-[#00a6ed]" href="https://siths.org/">@ Staten Island Technical High School 🎓</a></span>
                 </div>
-                <img class="aspect-square w-1/4" src="/images/profile.png" alt="profile picture">
+                <img class="aspect-square w-[28%]" src="/images/profile.png" alt="profile picture">
             </div>
         </div>
         <div class="mt-[2.25rem]">

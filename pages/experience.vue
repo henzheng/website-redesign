@@ -5,7 +5,7 @@
                 <h1 class="font-poppins text-[2rem] mr-4">02. Working Experiences </h1>
                 <hr class="border-[1.5px] border-black w-[200px]">
             </div>
-            <img class="w-1/2" src="/images/pla-mining.png" alt="mining">
+            <img class="w-1/2" src="/images/pla-mining.png" alt="working experiences">
         </div>
         <div class="flex flex-col justify-between gap-8">
             <p class="text-sm font-poppins leading-7 mt-2">
@@ -16,17 +16,16 @@
                 For a more comprehensive overview, take a look at my resume!
             </p>
             <div class="flex flex-row w-full items-center">
-                <h1 class="font-poppins text-2xl mr-4">Jobs & Internships</h1>
+                <h1 class="font-poppins text-2xl mr-4">Where I've Worked </h1>
                 <hr class="border-[1.5px] border-black w-[200px]">
             </div>
             <Tabs/>
         </div>
         <div class="flex flex-row w-full items-center">
-            <h1 class="font-poppins text-2xl mr-4">My Skills </h1>
+            <h1 class="font-poppins text-2xl mr-4">Skills & Technologies </h1>
             <hr class="border-[1.5px] border-black w-[200px]">
         </div>
-        <!-- <h2 class="font-poppins text-2xl">My Skills</h2> -->
-        <div class="flex flex-row flex-wrap items-center mt-4 mb-2 h-[200px]">
+        <div class="flex flex-row flex-wrap items-center mt-4 mb-2 w-full h-[200px]">
             <div class="flex flex-col items-center h-full w-1/4 gap-3">
                 <p class="font-poppins text-lg">Languages</p>
                 <img class="aspect-square w-[90px]" src="/images/heat-badge.png" alt="heat badge">

@@ -82,6 +82,10 @@ function openTab(event) {
     border-left: #00a6ed solid 2px;
 }
 
+.tab button.active > span {
+    color: #00a6ed ;
+}
+
 .tabcontent {
     display: none;
     width: 66%;
@@ -102,7 +106,13 @@ function openTab(event) {
 }
 
 .tabcontent a {
-    color: #00a6ed;
+    display: inline-block;
+    transition: all ease-in-out 150ms;
+    color: #00a6ed
+}
+
+.tabcontent a:hover {
+    transform: translateY(-2.5px);
 }
 
 .tabcontent li {
