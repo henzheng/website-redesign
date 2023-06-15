@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   ],
   app: {
       head: {
-          title: 'Henry Zheng',
+          title: 'Henry Zheng | ヘンリー',
           link: [
               { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
               { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap' },
