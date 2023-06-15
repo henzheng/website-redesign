@@ -47,7 +47,7 @@ const data = [
         imagePath: "/images/starters.jpg",
         projectName: "Pokemon Data Visualization",
         projectRole: "Sole Developer",
-        description: "Take a look at the data behind the with original 151 Pokemon with stunning visuals and a new perspective.",
+        description: "Take a look at the data behind the original 151 Pokemon with stunning visuals and a new perspective.",
         technologies: ["Svelte", "D3.js", "Chart.js"]
     },
     {
