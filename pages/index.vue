@@ -10,18 +10,25 @@
                 <img class="aspect-square w-[28%]" src="/images/profile.png" alt="profile picture">
             </div>
         </div>
-        <div class="mt-[2.25rem]">
+        <div class="flex flex-col gap-4 mt-[2.25rem]">
             <p class="text-sm font-poppins leading-7 pr-12">
                 Welcome to my portfolio website!
                 I'm Henry, a high school student from NYC with a strong ambition to become a skilled software engineer.
                 <i>I aim to create engaging, accessible apps for the web.</i>
+                One of the most important things to me is creating meaningful work that impacts the communities I'm involved in.
                 When it comes to JavaScript frameworks, <i>Nuxt.js</i> is my go-to choice, and I have over three years of hands-on experience in web development.
                 I'm constantly expanding my knowledge by embracing new technologies and eagerly seeking new opportunities to grow.
-                For instance, one of my goals for this upcoming year is to get better at <i>competitive programming</i> and familiarize myself with C++.
-                In my free time, I enjoy watching anime, playing videogames, going on short runs, and listening to music.
+                My goals this upcoming year include getting better at <i>competitive programming</i> and familiarizing myself with <i>C++.</i>
+                When I'm not coding, you can find me watching anime, playing videogames, going on short runs, or listening to music.
                 Some of my favorite genres are K-pop, J-pop, and R&B.
                 Feel free to explore my website and discover more about my journey!
                 Thanks for visiting and taking the time to explore my personal portfolio!
+            </p>
+            <p class="text-sm font-poppins leading-7 pr-12">
+                If you couldn't already tell, I'm a big fan of Pokemon and it served as the inspiration behind this website.
+                Pokemon Diamond and Pearl is my favorite game from the series, and it was the game the introduced me to the world of Pokemon.
+                From the very beginning, the game's seemingly endless world, beautiful music, and intriguing characters capitivated my imagination and fueled my love for the franchise.
+                From trading and collecting Pokemon cards during my childhood to delving into the competitive scene of Sword and Shield, where I proudly attained master ball rank in both singles and doubles battle formats, my journey as a part-time Pokemon trainer has been exhilarating. 
             </p>
         </div>
     </div>
