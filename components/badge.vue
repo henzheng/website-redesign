@@ -17,10 +17,12 @@ const props = defineProps({
 
 <style scoped>
 .flip-on-hover {
-    transition: all ease-in-out 300ms;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
 }
+
 .flip-on-hover:hover {
-    animation: flip-with-rotate 1s;
+    animation: flip-with-rotate 3s infinite;
 }
 
 @keyframes flip-with-rotate {
@@ -28,8 +30,13 @@ const props = defineProps({
         transform: perspective(400px) rotateY(0);
     }
 
-    100% {
+    50% {
         transform: perspective(400px) rotateY(180deg);
     }
+
+    100% {
+        transform: perspective(400px) rotateY(0);
+    }
 }
+
 </style>
