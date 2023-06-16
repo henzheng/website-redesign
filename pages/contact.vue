@@ -5,7 +5,11 @@
                 <h1 class="font-poppins text-[2rem] mr-4">05. Get In Touch </h1>
                 <hr class="border-[1.5px] border-black w-[200px]">
             </div>
-            <p class="font-poppins text-sm mt-5">
+            <blockquote class="font-poppins text-sm italic">
+                "You said you have a dream… That dream… Make it come true! Wonderful dreams and ideals give you the power to change the world!"
+                <cite>- N, <span class="not-italic">Pokemon Black & White</span></cite>
+            </blockquote>
+            <p class="font-poppins text-sm mt-8">
                 Feel free to send a message through social media or email if you want to get in touch!
                 <i>The best way to contact me is via email.</i>
                 I'm always open to new opportunities and learning experiences. 
@@ -13,8 +17,7 @@
                 If you prefer, you can also send me a friend request on Discord @coori.
                 Let's connect and explore the possibilities together!
             </p>
-            <!-- <img class="w-1/2" src="/images/pla-pokedex.png" alt="pla-pokedex"> -->
-            <div class="flex flex-row items-center gap-8">
+            <div class="flex flex-row items-center gap-8 mt-8">
                 <div class="flex flex-col justify-center items-center w-[400px] bg-white rounded shadow-2xl p-5">
                     <h3 class="font-poppins text-2xl mb-2">Send me a message!</h3>
                     <form 

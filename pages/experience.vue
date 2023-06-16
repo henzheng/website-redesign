@@ -5,6 +5,10 @@
                 <h1 class="font-poppins text-[2rem] mr-4">02. Working Experiences </h1>
                 <hr class="border-[1.5px] border-black w-[200px]">
             </div>
+            <blockquote class="font-poppins text-sm italic">
+                "I see now that the circumstances of one’s birth are irrelevant; it is what you do with the gift of life that determines who you are."
+                <cite>- Metwo, <span class="not-italic">Pokemon: The Movie.</span></cite>
+            </blockquote>
             <img class="w-1/2" src="/images/pla-mining.png" alt="working experiences">
         </div>
         <div class="flex flex-col justify-between gap-8">
