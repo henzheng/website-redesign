@@ -12,8 +12,17 @@
                 <p class="text-white font-poppins text-sm">{{ description }}</p>
             </div>
             <ul class="flex flex-row gap-4">
-                <li class="font-poppins" v-for="(tech, index) in technologies" :id="index.toString()">{{ tech }}</li>
+                <li 
+                    class="font-poppins px-2 rounded-md bg-blue-300"
+                    v-for="(tech, index) in technologies" :id="index.toString()"
+                >
+                {{ tech }}
+                </li>
             </ul>
+            <div class="flex flex-row gap-3 text-2xl mt-2">
+                <Icon class="cursor-pointer" name="ion:logo-github"/>
+                <Icon class="cursor-pointer" name="iconoir:open-new-window"/>
+            </div>
         </div>
     </div>
 </template>
