@@ -1,5 +1,5 @@
 <template>
-    <header class="flex top-0 ml-8 fixed w-full max-w-[992px] m-auto z-20">
+    <header class="flex top-0 ml-8 fixed w-full max-w-[768px] m-auto z-20">
         <nav class="flex pt-10 pb-4 gap-5 w-full font-poppins items-center background">
             <ul class="flex flex-row gap-5">
                 <li><NuxtLink class="hover-underline-animation" to="/about">About</NuxtLink></li>
