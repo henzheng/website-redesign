@@ -5,12 +5,17 @@
                 <div>
                     <h1 class="font-poppins"><span class="font-poppins text-base">Hey I'm</span><br>Henry Zheng</h1>
                     <h2 class="text-xl font-poppins">Programmer, Tech Enthusiast</h2>
-                    <span class="text-base font-poppins">Currently a student <a class="text-[#00a6ed]" href="https://siths.org/">@ Staten Island Technical High School 🎓</a></span>
+                    <span class="text-base font-poppins">Currently a student 
+                        <a 
+                            class="text-[#00a6ed] inline-block transition ease-in-out hover:translate-y-[-2.5px]" 
+                            href="https://siths.org/">@ Staten Island Technical High School 🎓
+                        </a>
+                    </span>
                 </div>
                 <img class="aspect-square w-[28%]" src="/images/profile.png" alt="profile picture">
             </div>
         </div>
-        <div class="flex flex-col gap-4 mt-[2.25rem]">
+        <div class="flex flex-col items-center gap-4 mt-[2.25rem]">
             <p class="text-sm font-poppins leading-7 pr-12">
                 Welcome to my portfolio website!
                 I'm Henry, a high school student from NYC with a strong ambition to become a skilled software engineer.

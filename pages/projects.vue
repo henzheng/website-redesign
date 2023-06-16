@@ -5,7 +5,6 @@
                 <h1 class="font-poppins text-[2rem] mr-4">03. Featured Projects </h1>
                 <hr class="border-[1.5px] border-black w-[200px]">
             </div>
-            <!-- <img class="w-1/2" src="/images/picnic.png" alt="picnic"> -->
         </div>
         <div class="flex flex-col gap-[5rem] mb-5">
             <Project v-for="project in data" 
@@ -19,7 +18,7 @@
             />
         </div>
         <h3 class="font-poppins text-base text-center my-6 mr-[2rem]">
-            Want to see more of my work? View my <a class="text-[#00a6ed]" href="https://github.com/nullZheng">Github profile!</a>
+            Want to see more of my work? View my <a class="text-[#00a6ed] inline-block transition ease-in-out hover:translate-y-[-2.5px]" href="https://github.com/nullZheng">Github profile!</a>
         </h3>
     </div>
 </template>
