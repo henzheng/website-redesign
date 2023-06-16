@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Languages",
+        "imageUrl": "/images/heat-badge.png",
+        "imageName": "heat badge",
+        "description": "HTML, CSS, Javascript, Typescript, Python"
+    },
+    {
+        "title": "Frameworks",
+        "imageUrl": "/images/knuckle-badge.png",
+        "imageName": "knuckle badge",
+        "description": "Nuxt.js, Vue.js, React, Express.js, Django"
+    },
+    {
+        "title": "Certifications",
+        "imageUrl": "/images/dynamo-badge.png",
+        "imageName": "dynamo badge",
+        "description": "TestDome Certified in Python and JS"
+    },
+    {
+        "title": "Collaboration",
+        "imageUrl": "/images/feather-badge.png",
+        "imageName": "feather badge",
+        "description": "Adaptable, Familiar with Git workflows"
+    }
+]

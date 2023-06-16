@@ -20,36 +20,29 @@
                 For a more comprehensive overview, take a look at my resume!
             </p>
             <div class="flex flex-row w-full items-center">
-                <h1 class="font-poppins text-2xl mr-4">Where I've Worked </h1>
+                <h2 class="font-poppins text-2xl mr-4">Where I've Worked </h2>
                 <hr class="border-[1.5px] border-black w-[200px]">
             </div>
             <Tabs/>
         </div>
         <div class="flex flex-row w-full items-center">
-            <h1 class="font-poppins text-2xl mr-4">Skills & Technologies </h1>
+            <h3 class="font-poppins text-2xl mr-4">Skills & Technologies </h3>
             <hr class="border-[1.5px] border-black w-[200px]">
         </div>
         <div class="flex flex-row flex-wrap items-center mt-4 mb-2 w-full h-[200px]">
-            <div class="flex flex-col items-center h-full w-1/4 gap-3">
-                <p class="font-poppins text-lg">Languages</p>
-                <img class="aspect-square w-[90px]" src="/images/heat-badge.png" alt="heat badge">
-                <p class="font-poppins text-sm text-center">HTML, CSS, Javascript, Typescript, Python</p>
-            </div>
-            <div class="flex flex-col items-center h-full w-1/4 gap-3">
-                <p class="font-poppins text-lg">Frameworks</p>
-                <img class="aspect-square w-[90px]" src="/images/knuckle-badge.png" alt="knuckle badge">
-                <p class="font-poppins text-sm text-center">Nuxt.js, Vue.js, React, Express.js, Django</p>
-            </div>
-            <div class="flex flex-col items-center h-full w-1/4 gap-3">
-                <p class="font-poppins text-lg">Certifications</p>
-                <img class="aspect-square w-[90px]" src="/images/dynamo-badge.png" alt="dynamo badge">
-                <p class="font-poppins text-sm text-center">TestDome Certified in Python and JS</p>
-            </div>
-            <div class="flex flex-col items-center h-full w-1/4 gap-3">
-                <p class="font-poppins text-lg">Collaboration</p>
-                <img class="aspect-square w-[90px]" src="/images/feather-badge.png" alt="feather badge">
-                <p class="font-poppins text-sm text-center">Adaptable, Familiar with Git workflows</p>
-            </div>
+            <Badge 
+                v-for="(skill, index) in skills"
+                :title="skill.title"
+                :imageUrl="skill.imageUrl"
+                :imageName="skill.imageName"
+                :description="skill.description"
+                :id="index"
+            />
         </div>
     </div>
 </template>
+
+<script setup>
+import skills from "~/assets/content/skills.json";
+console.log(skills)
+</script>
