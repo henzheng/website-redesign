@@ -1,5 +1,5 @@
 <template>
-    <header class="flex top-0 ml-8 fixed w-full max-w-[768px] m-auto z-20">
+    <header class="flex top-0 ml-8 fixed w-full max-w-[992px] m-auto z-20">
         <nav class="flex pt-10 pb-4 gap-5 w-full font-poppins items-center background">
             <ul class="flex flex-row gap-5">
                 <li><NuxtLink class="hover-underline-animation" to="/about">About</NuxtLink></li>
@@ -42,19 +42,18 @@ function changeTheme() {
 .hover-underline-animation:after {
     content: '';
     position: absolute;
-    width: 100%;
+    display: block;
+    width: 0;
     height: 1.5px;
-    bottom: 0;
-    left: 0;
-    transform-origin: bottom right;
-    transition: transform 0.2s ease-out;
-    transform: scaleX(0);
+    right: 0;
+    background: black;
+    transition: width .2s ease
 }
 
 .hover-underline-animation:hover:after {
-    transform: scaleX(1);
+    width: 100%;
+    left: 0;
     background: black;
-    transform-origin: bottom left;
 }
 
 </style>
