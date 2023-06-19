@@ -12,9 +12,10 @@
                 <p class="text-white font-poppins text-sm">{{ description }}</p>
             </div>
             <ul class="flex flex-row gap-4">
-                <li class="font-poppins px-2 rounded-md bg-blue-300"
+                <li class="font-poppins px-2 rounded-md text-black"
+                    :class="`bg-${tech.technologyColor}-300`"
                     v-for="(tech, index) in technologies" :id="index.toString()">
-                    {{ tech }}
+                    {{ tech.technologyName }}
                 </li>
             </ul>
             <div class="flex flex-row gap-3 text-2xl mt-2">
@@ -26,12 +27,20 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps({
-    url: String,
-    imagePath: String,
-    projectName: String,
-    projectRole: String,
-    description: String,
-    technologies: Array
-})
+interface Technology {
+    technologyName: string,
+    technologyColor: string
+}
+
+interface Props {
+    url: string,
+    imagePath: string,
+    projectName: string,
+    projectRole: string,
+    description: string,
+    technologies: Technology[]
+}
+
+const props = defineProps<Props>()
+
 </script>

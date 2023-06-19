@@ -30,40 +30,9 @@
 </template>
 
 <script setup lang="ts">
-const data = [
-    {
-        url: "/",
-        imagePath: "/images/sinnoh.jpg",
-        projectName: "Portfolio Website",
-        projectRole: "Sole Developer",
-        description: "A simple, clean portfolio website displaying my information and accomplishments.",
-        technologies: ["Nuxt.js", "TailwindCSS"]
-    },
-    {
-        url: "https://github.com/nullZheng/TravelerJS",
-        imagePath: "/images/genshin.jpg",
-        projectName: "Traveler Discord Bot",
-        projectRole: "Sole Developer",
-        description: "An easy-to-use Genshin Impact wiki right in the comfort of your Discord server!",
-        technologies: ["Javascript", "Discord.js"]
-    },
-    {
-        url: "https://github.com/nullZheng/Data-Visualization",
-        imagePath: "/images/starters.jpg",
-        projectName: "Pokemon Data Visualization",
-        projectRole: "Sole Developer",
-        description: "Take a look at the data behind the original 151 Pokemon with stunning visuals and a new perspective.",
-        technologies: ["Svelte", "D3.js", "Chart.js"]
-    },
-    {
-        url: "https://random-valorant.netlify.app",
-        imagePath: "/images/valorant.jpg",
-        projectName: "Random Valorant Generator",
-        projectRole: "Sole Developer",
-        description: "Don't know what to choose? Generate agents or maps to randomize your gameplay.",
-        technologies: ["HTML", "CSS", "Javascript"]
-    }
-]
+import data from "~/assets/content/projects.json";
+console.log(data);
+
 </script>
 
 <style scoped>

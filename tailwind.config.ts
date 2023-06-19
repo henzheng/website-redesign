@@ -23,4 +23,9 @@ module.exports = {
         },
     },
     plugins: [],
+    safelist: [
+        {
+            pattern: /^bg-(gray|red|orange|yellow|green|teal|blue|indigo|purple|pink|rose)-300$/
+        }
+    ]
 }
