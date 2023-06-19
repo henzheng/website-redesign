@@ -10,15 +10,8 @@ module.exports = {
     ],
     theme: {
         extend: {
-            colors: {
-                "primary-blue": "#48cae4",
-                "secondary-blue": "#0a192f"
-            },
             fontFamily: {
-                "nunito": "Nunito Sans, sans-serif",
                 "poppins": "Poppins, sans-serif",
-                "comfortaa": "Comfortaa, cursive",
-                "quicksand": "Quicksand, sans-serif",
             }
         },
     },
