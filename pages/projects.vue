@@ -1,16 +1,14 @@
 <template>
     <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem] w-full">
         <div class="flex flex-col items-center justify-center">
-            <div class="flex flex-row w-full items-center pb-4">
-                <h1 class="font-poppins text-[2rem] mr-4">03. Featured Projects </h1>
-                <hr class="border-[1.5px] border-black dark:border-white w-[200px]">
-            </div>
-            <blockquote class="font-poppins text-sm italic">
-                “We do have a lot in common. 
-                The same earth, the same air, the same sky. 
-                Maybe if we started looking at what’s the same, instead of looking at what’s different, well, who knows?”
-                <cite>- Meowth, <span class="not-italic">Pokemon Anime</span></cite>
-            </blockquote>
+            <Heading text="03. Featured Projects"/>
+            <Quote 
+                quote="We do have a lot in common.
+                The same earth, the same air, the same sky.
+                Maybe if we started looking at what's the same, instead of looking at what's different, well, who knows?"
+                author="Meowth"
+                source="Pokemon Anime"
+            />
         </div>
         <div class="flex flex-col gap-[5rem] mb-5">
             <Project v-for="project in data" 

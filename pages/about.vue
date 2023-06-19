@@ -1,16 +1,14 @@
 <template>
     <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem] w-full">
         <div class="flex flex-col items-center justify-center">
-            <div class="flex flex-row w-full items-center pb-4">
-                <h1 class="font-poppins text-[2rem] mr-4">01. My Journey </h1>
-                <hr class="border-[1.5px] border-black dark:border-white w-[200px]">
-            </div>
-            <blockquote class="font-poppins text-sm italic">
-                "Now, what did you say your name was? [player], are you ready? 
+            <Heading text="01. My Journey"/>
+            <Quote 
+                quote="Now, what did you say your name was? [player], are you ready?
                 Your very own Pokémon legend is about to unfold. You'll face fun times and tough challenges. 
                 A world of dreams and adventures with Pokémon awaits! Let's go!"
-                <cite>- Professor Oak, <span class="not-italic">Pokémon Red, Blue and Yellow</span></cite>
-            </blockquote>
+                author="Professor Oak"
+                source="Pokémon Red, Blue and Yellow"
+            />
             <img class="w-1/2" src="/images/pla-camp.png" alt="camp">
             <div class="flex flex-col justify-between items-center gap-4">
                 <p class="text-sm font-poppins leading-7 mt-2">

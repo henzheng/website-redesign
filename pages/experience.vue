@@ -1,14 +1,13 @@
 <template>
     <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem] w-full">
         <div class="flex flex-col items-center justify-center">
-            <div class="flex flex-row w-full items-center pb-4">
-                <h1 class="font-poppins text-[2rem] mr-4">02. Working Experiences </h1>
-                <hr class="border-[1.5px] border-black dark:border-white w-[200px]">
-            </div>
-            <blockquote class="font-poppins text-sm italic">
-                "I see now that the circumstances of one’s birth are irrelevant; it is what you do with the gift of life that determines who you are."
-                <cite>- Metwo, <span class="not-italic">Pokemon: The Movie.</span></cite>
-            </blockquote>
+            <Heading text="02. Working Experiences"/>
+            <Quote 
+                quote="I see now that the circumstances of one's birth are irrelevant;
+                it is what you do with the gift of life that determines who you are."
+                author="Mewtwo"
+                source="Pokemon: The Movie."
+            />
             <img class="w-1/2" src="/images/pla-mining.png" alt="working experiences">
         </div>
         <div class="flex flex-col justify-between gap-8">

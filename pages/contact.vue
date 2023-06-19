@@ -1,14 +1,12 @@
 <template>
     <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem] w-full">
         <div class="flex flex-col items-center justify-center">
-            <div class="flex flex-row w-full items-center pb-4">
-                <h1 class="font-poppins text-[2rem] mr-4">05. Get In Touch </h1>
-                <hr class="border-[1.5px] border-black dark:border-white w-[200px]">
-            </div>
-            <blockquote class="font-poppins text-sm italic">
-                "You said you have a dream… That dream… Make it come true! Wonderful dreams and ideals give you the power to change the world!"
-                <cite>- N, <span class="not-italic">Pokemon Black & White</span></cite>
-            </blockquote>
+            <Heading text="05. Get In Touch"/>
+            <Quote
+                quote="You said you have a dream… That dream… Make it come true! Wonderful dreams and ideals give you the power to change the world!"
+                author="N"
+                source="Pokemon Black & White"
+            />
             <p class="font-poppins text-sm mt-8">
                 Feel free to send a message through social media or email if you want to get in touch!
                 <i>The best way to contact me is via email.</i>
