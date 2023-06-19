@@ -3,7 +3,7 @@
         <div class="flex flex-col items-center justify-center">
             <div class="flex flex-row w-full items-center pb-4">
                 <h1 class="font-poppins text-[2rem] mr-4">04. My Blog </h1>
-                <hr class="border-[1.5px] border-black w-[200px]">
+                <hr class="border-[1.5px] border-black dark:border-white w-[200px]">
             </div>
             <div class="flex flex-col mb-5">
                 <h2 class="font-poppins text-xl mb-2 self-start">Gotta Code 'Em All!</h2>

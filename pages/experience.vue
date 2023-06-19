@@ -3,7 +3,7 @@
         <div class="flex flex-col items-center justify-center">
             <div class="flex flex-row w-full items-center pb-4">
                 <h1 class="font-poppins text-[2rem] mr-4">02. Working Experiences </h1>
-                <hr class="border-[1.5px] border-black w-[200px]">
+                <hr class="border-[1.5px] border-black dark:border-white w-[200px]">
             </div>
             <blockquote class="font-poppins text-sm italic">
                 "I see now that the circumstances of one’s birth are irrelevant; it is what you do with the gift of life that determines who you are."
@@ -21,13 +21,13 @@
             </p>
             <div class="flex flex-row w-full items-center">
                 <h2 class="font-poppins text-2xl mr-4">Where I've Worked </h2>
-                <hr class="border-[1.5px] border-black w-[200px]">
+                <hr class="border-[1.5px] border-black dark:border-white w-[200px]">
             </div>
             <Tabs/>
         </div>
         <div class="flex flex-row w-full items-center">
             <h3 class="font-poppins text-2xl mr-4">Skills & Technologies </h3>
-            <hr class="border-[1.5px] border-black w-[200px]">
+            <hr class="border-[1.5px] border-black dark:border-white w-[200px]">
         </div>
         <div class="flex flex-row flex-wrap items-center mt-4 mb-2 w-full h-[200px]">
             <Badge 

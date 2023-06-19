@@ -3,7 +3,7 @@
         <div class="flex flex-col items-center justify-center">
             <div class="flex flex-row w-full items-center pb-4">
                 <h1 class="font-poppins text-[2rem] mr-4">05. Get In Touch </h1>
-                <hr class="border-[1.5px] border-black w-[200px]">
+                <hr class="border-[1.5px] border-black dark:border-white w-[200px]">
             </div>
             <blockquote class="font-poppins text-sm italic">
                 "You said you have a dream… That dream… Make it come true! Wonderful dreams and ideals give you the power to change the world!"
