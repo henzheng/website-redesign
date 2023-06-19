@@ -1,6 +1,9 @@
 <template>
     <header class="flex top-0 ml-8 fixed w-full max-w-[768px] m-auto z-20">
-        <nav class="flex pt-10 pb-4 gap-5 w-full font-poppins items-center background">
+        <nav class="flex pt-10 pb-4 gap-5 w-full font-poppins items-center
+                    bg-no-repeat bg-fixed bg-cover 
+                    bg-[linear-gradient(hsla(0,0%,100%,0.925),hsla(0,0%,100%,0.925)),url('/images/sinnoh.jpg')]
+                    dark:bg-[linear-gradient(rgba(0,0,0,0.925),rgba(0,0,0,0.925)),url('/images/sinnoh.jpg')]">
             <ul class="flex flex-row gap-5">
                 <li><NuxtLink class="hover-underline-animation" to="/about">About</NuxtLink></li>
                 <li><NuxtLink class="hover-underline-animation" to="/experience">Experience</NuxtLink></li>
@@ -25,7 +28,24 @@ const isLightTheme = ref(true)
 
 function changeTheme() {
     isLightTheme.value = !isLightTheme.value;
+    if(isLightTheme.value) {
+        document.documentElement.classList.remove("dark");
+        localStorage.theme = "light";
+    } else {
+        document.documentElement.classList.add("dark");
+        localStorage.theme = "dark";
+    }
 }
+
+onMounted(() => {
+    if(localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        document.documentElement.classList.add("dark");
+        isLightTheme.value = false;
+    } else {
+        document.documentElement.classList.remove("dark");
+        isLightTheme.value = true;
+    }
+})
 </script>
 
 <style scoped>

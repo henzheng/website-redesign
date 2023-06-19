@@ -18,25 +18,22 @@
                 Let's connect and explore the possibilities together!
             </p>
             <div class="flex flex-row items-center gap-8 mt-8">
-                <div class="flex flex-col justify-center items-center w-[400px] bg-white rounded shadow-2xl p-5">
+                <div class="flex flex-col justify-center items-center w-[400px] bg-white dark:bg-slate-800 rounded shadow-2xl p-5">
                     <h3 class="font-poppins text-2xl mb-2">Send me a message!</h3>
-                    <form 
-                        @submit.prevent="sendEmail"
-                        autocomplete="off"
+                    <form @submit.prevent="sendEmail" autocomplete="off"
                         class="font-poppins flex flex-col text-sm w-3/4 gap-5">
-                        <label for="name" hidden>Name</label>
-                        <input class="outline-none p-2 bg-slate-100 rounded-lg" type="text" id="name" placeholder="Your name">
-                        <label for="name" hidden>Email</label>
-                        <input class="outline-none p-2 bg-slate-100 rounded-lg" type="email" id="email" placeholder="Your email">
-                        <label for="message" hidden>Message</label>
-                        <textarea 
-                            class="outline-none p-2 bg-slate-100 rounded-lg resize-none" 
+                        <input class="outline-none p-2 bg-slate-100 dark:bg-slate-600 rounded-lg" 
+                            placeholder="Your name"
+                            type="text" id="name">
+                        <input class="outline-none p-2 bg-slate-100 dark:bg-slate-600 rounded-lg" 
+                            placeholder="Your email"
+                            type="email" id="email">
+                        <textarea class="outline-none p-2 bg-slate-100 dark:bg-slate-600 rounded-lg resize-none"
+                            placeholder="Your message"
                             name="message" 
                             id="message" 
-                            placeholder="Your message"
                             rows="4"
-                            cols="30"
-                        >
+                            cols="30">
                         </textarea>
                         <button class="bg-blue-500 w-[5rem] text-white rounded p-2 m-auto" type="submit">
                             <Icon name="ion:ios-paper-plane"/>
