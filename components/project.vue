@@ -6,7 +6,7 @@
             </a>
         </div>
         <div class="flex flex-col w-1/2">
-            <h3 class="font-poppins text-lg">{{ projectName }}</h3>
+            <h2 class="font-poppins text-lg">{{ projectName }}</h2>
             <p class="font-poppins">{{ projectRole }}</p>
             <div class="bg-slate-800 opacity-80 rounded-sm text-white p-3 my-4">
                 <p class="text-white font-poppins text-sm">{{ description }}</p>
