@@ -5,12 +5,12 @@
                     bg-[linear-gradient(hsla(0,0%,100%,0.925),hsla(0,0%,100%,0.925)),url('/images/sinnoh.jpg')]
                     dark:bg-[linear-gradient(rgba(0,0,0,0.925),rgba(0,0,0,0.925)),url('/images/sinnoh.jpg')]">
             <ul class="flex flex-row gap-5">
-                <li><NuxtLink class="hover-underline-animation" to="/about">About</NuxtLink></li>
-                <li><NuxtLink class="hover-underline-animation" to="/experience">Experience</NuxtLink></li>
-                <li><NuxtLink class="hover-underline-animation" to="/projects">Projects</NuxtLink></li>
-                <li><NuxtLink class="hover-underline-animation" to="/blog">Blog</NuxtLink></li>
-                <li><NuxtLink class="hover-underline-animation" to="/contact">Contact</NuxtLink></li>
-                <li><a class="hover-underline-animation" href="/resume.pdf">Resume</a></li>
+                <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/about">About</NuxtLink></li>
+                <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/experience">Experience</NuxtLink></li>
+                <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/projects">Projects</NuxtLink></li>
+                <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/blog">Blog</NuxtLink></li>
+                <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/contact">Contact</NuxtLink></li>
+                <li><a class="hover-underline-animation after:bg-black dark:after:bg-white" href="/resume.pdf">Resume</a></li>
             </ul>
             <div class="flex flex-row gap-3 items-center ml-auto">
                 <Icon v-if="isLightTheme" class="text-xl cursor-pointer transition ease-in-out hover:rotate-45" name="material-symbols:dark-mode" @click="changeTheme"/>
@@ -49,12 +49,6 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.background {
-    background: linear-gradient(hsla(0,0%,100%,0.925),hsla(0,0%,100%,0.925)), url('/images/sinnoh.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
 .hover-underline-animation {
     position: relative;
 }
@@ -66,14 +60,12 @@ onMounted(() => {
     width: 0;
     height: 1.5px;
     right: 0;
-    background: black;
     transition: width .2s ease
 }
 
 .hover-underline-animation:hover:after {
     width: 100%;
     left: 0;
-    background: black;
 }
 
 </style>
