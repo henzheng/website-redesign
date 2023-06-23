@@ -30,7 +30,7 @@
                         As I look ahead, I'm excited to pursue my dreams of becoming a software engineer by majoring in Computer Science. 
                         The future holds endless possibilities, and I can't wait to see where this journey takes me.
                     </p>
-                    <img class="w-1/3 aspect-auto rounded mr-8" src="/images/pbw-promo-artwork.jpg" alt="childhood">
+                    <img class="w-1/3 aspect-auto rounded mr-6" src="/images/pbw-promo-artwork.jpg" alt="childhood">
                 </div>
             </div>
         </div>

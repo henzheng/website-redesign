@@ -22,7 +22,11 @@
             />
         </div>
         <h3 class="font-poppins text-base text-center my-6 mr-[2rem]">
-            Want to see more of my work? View my <a class="text-[#00a6ed] inline-block transition ease-in-out hover:translate-y-[-2.5px]" href="https://github.com/nullZheng">Github profile!</a>
+            Want to see more of my work? View my 
+            <a class="text-[#00a6ed] inline-block transition ease-in-out hover:translate-y-[-2.5px]" 
+               href="https://github.com/nullZheng">
+               Github profile!
+            </a>
         </h3>
     </div>
 </template>
