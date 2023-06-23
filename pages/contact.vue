@@ -17,7 +17,7 @@
                 If you prefer, you can also send me a friend request on Discord @coori.
                 Let's connect and explore the possibilities together!
             </p>
-            <div class="flex flex-row justify-center gap-[4rem] mt-8 pr-8 w-full">
+            <div class="flex flex-row justify-center gap-[4rem] my-8 pr-8 w-full">
                 <div class="flex flex-col justify-center items-center w-1/2 h-[300px] bg-white dark:bg-slate-800 rounded shadow-2xl p-8">
                     <h3 class="font-poppins text-xl mt-10 mb-4">Send me a message!</h3>
                     <form @submit.prevent="sendEmail" autocomplete="off"
