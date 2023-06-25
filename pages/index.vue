@@ -3,11 +3,7 @@
         <div class="text-[3rem] mr-auto flex flex-col gap-2">
             <div class="flex flex-row items-center gap-[0.35rem] justify-between">
                 <div>
-                    <h1 class="font-poppins">
-                        <span class="font-poppins text-base">Hey I'm</span>
-                        <br>
-                        Henry Zheng
-                    </h1>
+                    <h1 class="font-poppins"><span class="font-poppins text-base">Hey I'm</span><br>Henry Zheng</h1>
                     <h2 class="text-xl font-poppins">Programmer, Tech Enthusiast</h2>
                     <span class="text-base font-poppins">Currently a student 
                         <a 
@@ -16,7 +12,7 @@
                         </a>
                     </span>
                 </div>
-                <img class="aspect-square w-[28%]" src="/images/profile.png" alt="profile picture">
+                <nuxt-img format="webp" class="aspect-square w-[28%]" src="/images/profile.png" alt="pokemon trainer" />
             </div>
         </div>
         <div class="flex flex-col items-center gap-4 mt-[2.25rem]">

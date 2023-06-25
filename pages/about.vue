@@ -9,7 +9,7 @@
                 author="Professor Oak"
                 source="Pokémon Red, Blue and Yellow"
             />
-            <img class="w-1/2" src="/images/pla-camp.png" alt="camp">
+            <nuxt-img format="webp" class="w-1/2" src="/images/pla-camp.png" alt="base camp"/>
             <div class="flex flex-col justify-between items-center gap-4">
                 <p class="text-sm font-poppins leading-7 mt-2">
                     Hey, Henry here!
@@ -30,7 +30,7 @@
                         As I look ahead, I'm excited to pursue my dreams of becoming a software engineer by majoring in Computer Science. 
                         The future holds endless possibilities, and I can't wait to see where this journey takes me.
                     </p>
-                    <img class="w-1/3 aspect-auto rounded mr-6" src="/images/pbw-promo-artwork.jpg" alt="childhood">
+                    <nuxt-img format="webp" class="w-1/3 aspect-auto rounded mr-6" src="/images/pbw-promo-artwork.jpg" alt="childhood" />
                 </div>
             </div>
         </div>

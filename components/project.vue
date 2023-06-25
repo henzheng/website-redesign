@@ -2,7 +2,7 @@
     <div class="flex flex-row gap-4">
         <div class="flex items-center justify-center aspect-video w-1/2 transition ease-in-out hover:scale-105">
             <a :href="url">
-                <img class="rounded-md" :src="imagePath" :alt="projectName">    
+                <nuxt-img format="webp" class="rounded-md" :src="imagePath" :alt="projectName" />
             </a>
         </div>
         <div class="flex flex-col w-1/2">
