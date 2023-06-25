@@ -8,7 +8,7 @@
                 author="Mewtwo"
                 source="Pokemon: The Movie."
             />
-            <img class="w-1/2" src="/images/pla-mining.png" alt="working experiences">
+            <nuxt-img format="webp" class="w-1/2" src="/images/pla-mining.png" alt="mining" />
         </div>
         <div class="flex flex-col justify-between gap-8">
             <p class="text-sm font-poppins leading-7 mt-2">
