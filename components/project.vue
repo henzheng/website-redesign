@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-row gap-4">
-        <div class="flex items-center justify-center aspect-video w-1/2 transition ease-in-out hover:scale-105">
+        <div class="flex items-center justify-center aspect-video w-1/2 transition ease-in-out hover:opacity-75">
             <a :href="url">
                 <nuxt-img format="webp" class="rounded-md" :src="imagePath" :alt="projectName" />
             </a>
