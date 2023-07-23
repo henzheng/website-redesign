@@ -136,4 +136,25 @@ function openTab(event) {
         opacity: 1;
     }
 }
+
+@media only screen and (max-width: 640px) {
+    .tab-container {
+        flex-direction: column;
+        align-items: center;
+        height: 50vh;
+        width: 90vw;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .tab {
+        width: 65%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .tab button {
+        border-left: white solid 2px;
+    }
+}
 </style>

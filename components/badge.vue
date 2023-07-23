@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-col items-center h-full w-1/4 gap-3">
-        <h3 class="font-poppins text-lg">{{ title }}</h3>
+    <div class="flex flex-col items-center h-full w-1/2 md:w-1/4 gap-3">
+        <h3 class="font-poppins text-base md:text-lg">{{ title }}</h3>
         <img class="aspect-square w-[90px] flip-on-hover" :src="imageUrl" :alt="imageName">
         <p class="font-poppins text-sm text-center">{{ description }}</p>
     </div>

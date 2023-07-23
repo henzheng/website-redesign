@@ -1,5 +1,5 @@
 <template>
-    <header class="flex top-0 ml-8 fixed w-full max-w-[768px] m-auto z-20">
+    <header class="top-0 ml-8 fixed w-full max-w-[768px] m-auto z-20 hidden md:flex">
         <nav class="flex pt-10 pb-4 gap-5 w-full font-poppins items-center
                     bg-no-repeat bg-fixed bg-cover 
                     bg-[linear-gradient(hsla(0,0%,100%,0.925),hsla(0,0%,100%,0.925)),url('/images/sinnoh.jpg')]
