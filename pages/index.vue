@@ -29,12 +29,6 @@
                 Feel free to explore my website and discover more about my journey!
                 Thanks for visiting and taking the time to explore my personal portfolio!
             </p>
-            <p class="text-sm font-poppins leading-7 pr-12">
-                If you couldn't already tell, I'm a big fan of Pokemon and it served as the inspiration behind this website.
-                Pokemon Diamond and Pearl is my favorite game from the series, and it was the game the introduced me to the world of Pokemon.
-                From the very beginning, the game's seemingly endless world, beautiful music, and intriguing characters capitivated my imagination and fueled my love for the franchise.
-                From trading and collecting Pokemon cards during my childhood to delving into the competitive scene of Sword and Shield, where I proudly attained master ball rank in both singles and doubles battle formats, my journey as a part-time Pokemon trainer and developer has been exhilarating. 
-            </p>
         </div>
     </div>
 </template>
