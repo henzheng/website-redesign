@@ -20,7 +20,7 @@
                 However, in recent years, I have been much more interested in <i>machine learning and web development</i>. 
                 In fact, this website was built using <i>Nuxt.js and Tailwind CSS!</i>
             </p>
-            <Progess class="hidden lg:flex"/>
+            <Progess class="flex-wrap justify-center"/>
             <h2 class="font-poppins text-lg italic self-start">Excelsior. Ever Upward.</h2>
             <div class="flex flex-col-reverse md:flex-row gap-[2.75rem] mt-2 mb-4">
                 <p class="text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
