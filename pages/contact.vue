@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem] w-full">
+    <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem]">
         <div class="flex flex-col items-center justify-center">
             <Heading text="04. Get In Touch"/>
             <Quote
@@ -7,7 +7,7 @@
                 author="N"
                 source="Pokemon Black & White"
             />
-            <img class="w-1/2" src="/images/psm-pokedex.png" alt="torchic">
+            <img class="py-4 w-3/4 md:w-1/2" src="/images/psm-pokedex.png" alt="torchic">
             <p class="font-poppins text-sm mt-8">
                 Alright, what's next?
                 Feel free to send a message through social media or email if you want to get in touch!
@@ -15,8 +15,8 @@
                 I'm always open to new opportunities and learning experiences. 
                 I check my inboxes often, so I'll try my best to get back to you as soon as possible!
             </p>
-            <div class="flex flex-row justify-center gap-[4rem] mt-8 pr-8 w-full">
-                <div class="flex flex-col justify-center items-center w-1/2 h-[300px] bg-white dark:bg-slate-800 rounded shadow-2xl p-8">
+            <div class="flex flex-col items-center md:flex-row justify-center gap-[4rem] mt-8 md:pr-8 w-full">
+                <div class="flex flex-col justify-center items-center md:w-1/2 h-[300px] bg-white dark:bg-slate-800 rounded shadow-2xl p-8">
                     <h3 class="font-poppins text-xl mt-10 mb-4">Send me a message!</h3>
                     <form @submit.prevent="sendEmail" autocomplete="off"
                         class="font-poppins flex flex-col text-sm gap-4">
@@ -39,7 +39,7 @@
                         </button>
                     </form>
                 </div>
-                <img class="w-[300px] h-[300px] rounded" src="/images/alola.png" alt="alola">
+                <img class="w-3/4 rounded md:w-[300px]" src="/images/alola.png" alt="alola">
             </div>
         </div>
     </div>
