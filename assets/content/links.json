@@ -1,0 +1,22 @@
+[
+    {
+        "emoji": "✨",
+        "url": "/about",
+        "text": "Learn about me & discover my journey."
+    },
+    {
+        "emoji": "🚀",
+        "url": "/experience",
+        "text": "Unveil my skills & experiences."
+    },
+    {
+        "emoji": "🔍",
+        "url": "/projects",
+        "text": "Explore my creations."
+    }
+    ,    {
+        "emoji": "📬",
+        "url": "/contact",
+        "text": "Let's get in touch!"
+    }
+]

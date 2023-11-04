@@ -1,4 +1,4 @@
-[
+[   
     {
         "position": "Web Development Intern",
         "url": "https://www.tygasmart.com/",
@@ -14,9 +14,9 @@
         "position": "Lead Developer",
         "url": "https://bruzzeses.com/",
         "workplace": "Bruzzese’s Italian Gourmet",
-        "timeframe": "Sep 2022 - Present",
+        "timeframe": "Sep 2022 - Nov 2022",
         "description": [
-            "Developed and deployed a web application that serves as an order management system, helping employees keep track of upcoming and previous orders and streamlining operations",
+            "Developed and deployed a web application that serves as an order management system, helping employees keep track of upcoming and previous orders to streamline operations",
             "Worked independently and collaboratively within a team to deliver a high-quality product"
         ],
         "id": "BG"

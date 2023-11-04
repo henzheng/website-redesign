@@ -10,7 +10,7 @@ export default defineNuxtConfig({
           htmlAttrs: {
             lang: 'en'
           },
-          title: 'Henry Zheng | ヘンリー',
+          title: 'Henry Zheng | 郑鹏',
           link: [
               { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
               { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Poppins&display=swap'},

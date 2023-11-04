@@ -14,22 +14,18 @@
         <div class="flex flex-col justify-between items-start md:items-center gap-8">
             <p class="text-sm w-[85%] mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
                 Hey, Henry here!
-                I was introduced to the world of programming through the TI-84 Calculator. 
-                Surprisingly, messing around with TI-Basic teaches you a lot of <i>core programming principles!</i>
-                After this experience sparked my curiousity, I went on to learn <i>Python</i> as my first programming language. 
-                Many of my early projects were Discord bots made using Discord.py, an API wrapper for Discord.
-                I have four years of programming experience and three years of web development experience. 
-                However, in recent years, I have been much more interested in <i>web development and machine learning</i>. 
+                My introduction to programming came from coding with <i>TI-Basic</i> on the TI-84 calculator, which surprisingly taught me many <i>core programming principles</i>!
+                This experience sparked my interest, leading me to learn <i>Python</i> as my first programming language.
+                Many of my early projects were bots made using <i>Discord.py</i>, an API wrapper for Discord. 
+                However, in recent years, I have been much more interested in <i>machine learning and web development</i>. 
                 In fact, this website was built using <i>Nuxt.js and Tailwind CSS!</i>
             </p>
+            <h3 class="font-poppins text-lg italic self-start">Excelsior. Ever Upward.</h3>
             <div class="flex flex-col-reverse md:flex-row gap-[2.75rem] mt-2 mb-4">
                 <p class="text-sm w-[85%] mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
-                    Growing up in the vibrant metropolis of New York City, I've always lived by the motto "Excelsior," meaning "ever upward." 
-                    This motto resonates deeply with my approach to programming. 
-                    I firmly believe in the power of constant improvement and never settling for mediocrity. 
-                    With each project, I strive to push boundaries, embrace innovation, and deliver exceptional web experiences.
-                    As I look ahead, I'm excited to pursue my dreams of becoming a software engineer by majoring in Computer Science. 
-                    The future holds endless possibilities, and I can't wait to see where this journey takes me.
+                    <i>Excelsior</i>—my guiding principle from the vibrant streets of NYC, deeply resonates with my approach to programming.
+                    With each project, I strive to learn something new, push boundaries, and deliver exceptional web experiences.
+                    The future holds <i>endless possibilities</i>, and I can't wait to see where this journey takes me.
                 </p>
                 <img class="w-[200px] h-fit self-center mr-[3rem] md:w-1/3 md:h-auto aspect-auto rounded md:mr-6" src="/images/pbw-promo-artwork.jpg" alt="childhood">
             </div>
