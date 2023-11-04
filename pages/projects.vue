@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem] w-full">
+    <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem]">
         <div class="flex flex-col items-center justify-center">
             <Heading text="03. Featured Projects"/>
             <Quote 

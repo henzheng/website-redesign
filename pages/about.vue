@@ -9,10 +9,10 @@
                 author="Professor Oak"
                 source="Pokémon Yellow"
             />
-            <img class="w-3/4 mr-[3rem] md:w-[60%] md:mr-0" src="/images/pla-camp.png" alt="camp">
+            <img class="mt-4 md:w-[60%] md:mr-0" src="/images/pla-camp.png" alt="camp">
         </div>
-        <div class="flex flex-col justify-between items-start md:items-center gap-8">
-            <p class="text-sm w-[85%] mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
+        <div class="flex flex-col justify-between w-full md:items-center gap-8">
+            <p class="text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
                 Hey, Henry here!
                 My introduction to programming came from coding with <i>TI-Basic</i> on the TI-84 calculator, which surprisingly taught me many <i>core programming principles</i>!
                 This experience sparked my interest, leading me to learn <i>Python</i> as my first programming language.
@@ -23,12 +23,12 @@
             <Progess class="hidden lg:flex"/>
             <h2 class="font-poppins text-lg italic self-start">Excelsior. Ever Upward.</h2>
             <div class="flex flex-col-reverse md:flex-row gap-[2.75rem] mt-2 mb-4">
-                <p class="text-sm w-[85%] mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
+                <p class="text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
                     <i>Excelsior</i>—my guiding principle from the vibrant streets of NYC, deeply resonates with my approach to programming.
                     With each project, I strive to learn something new, push boundaries, and deliver exceptional web experiences.
                     The future holds <i>endless possibilities</i>, and I can't wait to see where this journey takes me.
                 </p>
-                <img class="w-[200px] h-fit self-center mr-[3rem] md:w-1/3 md:h-auto aspect-auto rounded md:mr-6" src="/images/pbw-promo-artwork.jpg" alt="childhood">
+                <img class="w-[225px] h-fit self-center md:w-1/3 md:h-auto aspect-auto rounded md:mr-6" src="/images/pbw-promo-artwork.jpg" alt="childhood">
             </div>
         </div>
     </div>
