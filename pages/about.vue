@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem] w-full">
+    <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem] w-fit">
         <div class="flex flex-col items-center justify-center">
             <Heading text="01. My Journey"/>
             <Quote 
@@ -9,7 +9,7 @@
                 author="Professor Oak"
                 source="Pokémon Yellow"
             />
-            <img class="w-3/4 mr-[3rem] md:w-1/2 md:mr-0" src="/images/pla-camp.png" alt="camp">
+            <img class="w-3/4 mr-[3rem] md:w-[60%] md:mr-0" src="/images/pla-camp.png" alt="camp">
         </div>
         <div class="flex flex-col justify-between items-start md:items-center gap-8">
             <p class="text-sm w-[85%] mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
@@ -20,7 +20,8 @@
                 However, in recent years, I have been much more interested in <i>machine learning and web development</i>. 
                 In fact, this website was built using <i>Nuxt.js and Tailwind CSS!</i>
             </p>
-            <h3 class="font-poppins text-lg italic self-start">Excelsior. Ever Upward.</h3>
+            <Progess class="hidden lg:flex"/>
+            <h2 class="font-poppins text-lg italic self-start">Excelsior. Ever Upward.</h2>
             <div class="flex flex-col-reverse md:flex-row gap-[2.75rem] mt-2 mb-4">
                 <p class="text-sm w-[85%] mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
                     <i>Excelsior</i>—my guiding principle from the vibrant streets of NYC, deeply resonates with my approach to programming.
