@@ -9,7 +9,7 @@
                 author="Professor Oak"
                 source="Pokémon Yellow"
             />
-            <img class="mt-4 md:w-[60%] md:mr-0" src="/images/pla-camp.png" alt="camp">
+            <nuxt-img format="webp" class="mt-4 md:w-[60%] md:mr-0" src="/images/pla-camp.png" alt="camp"/>
         </div>
         <div class="flex flex-col justify-between w-full md:items-center gap-8">
             <p class="text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
@@ -28,7 +28,7 @@
                     With each project, I strive to learn something new, push boundaries, and deliver exceptional web experiences.
                     The future holds <i>endless possibilities</i>, and I can't wait to see where this journey takes me.
                 </p>
-                <img class="w-[225px] h-fit self-center md:w-1/3 md:h-auto aspect-auto rounded md:mr-6" src="/images/pbw-promo-artwork.jpg" alt="childhood">
+                <nuxt-img format="webp" class="w-[225px] h-fit self-center md:w-1/3 md:h-auto aspect-auto rounded md:mr-6" src="/images/pbw-promo-artwork.jpg" alt="childhood"/>
             </div>
         </div>
     </div>

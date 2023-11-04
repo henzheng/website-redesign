@@ -3,8 +3,12 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   modules: [
       '@nuxtjs/tailwindcss',
+      '@nuxt/image',
       'nuxt-icon'
   ],
+  image: {
+    format: ['webp']
+  },
   app: {
       head: {
           htmlAttrs: {

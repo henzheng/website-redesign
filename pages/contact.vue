@@ -7,7 +7,7 @@
                 author="N"
                 source="Pokemon Black & White"
             />
-            <img class="py-4 w-3/4 md:w-1/2" src="/images/psm-pokedex.png" alt="torchic">
+            <nuxt-img format="webp" class="py-4 w-3/4 md:w-1/2" src="/images/psm-pokedex.png" alt="pokedex"/>
             <p class="font-poppins text-sm mt-8">
                 Alright, what's next?
                 Feel free to send a message through social media or email if you want to get in touch!
@@ -39,18 +39,8 @@
                         </button>
                     </form>
                 </div>
-                <img class="w-3/4 rounded md:w-[300px]" src="/images/alola.png" alt="alola">
+                <nuxt-img format="webp" class="w-3/4 rounded md:w-[300px]" src="/images/alola.png" alt="alola"/>
             </div>
         </div>
     </div>
 </template>
-
-<script setup lang="ts">
-const email = reactive({
-    name: String,
-    content: String,
-})
-async function sendEmail(){
-
-}
-</script>
