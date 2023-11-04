@@ -18,7 +18,7 @@
                         </a>
                     </span>
                 </div>
-                <nuxt-img format="webp" class="w-1/2 aspect-square md:w-[28%]" src="/images/profile.png" alt="avatar">
+                <nuxt-img format="webp" class="w-1/2 aspect-square md:w-[28%]" src="/images/profile.png" alt="avatar"/>
             </div>
         </div>
         <div class="flex flex-col items-center gap-4 mt-[2.25rem]">

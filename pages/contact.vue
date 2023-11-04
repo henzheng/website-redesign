@@ -16,29 +16,7 @@
                 I check my inboxes often, so I'll try my best to get back to you as soon as possible!
             </p>
             <div class="flex flex-col items-center md:flex-row justify-center gap-[4rem] mt-8 md:pr-8 w-full">
-                <div class="flex flex-col justify-center items-center md:w-1/2 h-[300px] bg-white dark:bg-slate-800 rounded shadow-2xl p-8">
-                    <h3 class="font-poppins text-xl mt-10 mb-4">Send me a message!</h3>
-                    <form @submit.prevent="sendEmail" autocomplete="off"
-                        class="font-poppins flex flex-col text-sm gap-4">
-                        <input class="outline-none p-2 bg-slate-100 dark:bg-slate-600 rounded-lg" 
-                            placeholder="Your name"
-                            type="text" id="name">
-                        <input class="outline-none p-2 bg-slate-100 dark:bg-slate-600 rounded-lg" 
-                            placeholder="Your email"
-                            type="email" id="email">
-                        <textarea class="block outline-none p-2 bg-slate-100 dark:bg-slate-600 rounded-lg resize-none"
-                            placeholder="Your message"
-                            name="message" 
-                            id="message" 
-                            rows="3"
-                            cols="30">
-                        </textarea>
-                        <button class="bg-blue-500 w-[5rem] text-white rounded p-2 mx-auto mb-8" type="submit">
-                            <Icon name="ion:ios-paper-plane"/>
-                            Send
-                        </button>
-                    </form>
-                </div>
+                <Form/>
                 <nuxt-img format="webp" class="w-3/4 rounded md:w-[300px]" src="/images/alola.png" alt="alola"/>
             </div>
         </div>
