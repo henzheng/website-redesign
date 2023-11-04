@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col w-[80vw] items-center md:items-start md:w-auto md:flex-row gap-4">
+    <div class="flex flex-col w-[90vw] items-center md:items-start md:w-auto md:flex-row gap-4">
         <div class="flex items-center justify-center aspect-video w-[80%] lg:w-1/2 transition ease-in-out hover:opacity-75">
             <a :href="url">
                 <nuxt-img format="webp" class="rounded-md" :src="imagePath" :alt="projectName" />

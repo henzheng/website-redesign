@@ -15,7 +15,7 @@
                 I'm always open to new opportunities and learning experiences. 
                 I check my inboxes often, so I'll try my best to get back to you as soon as possible!
             </p>
-            <div class="flex flex-col items-center md:flex-row justify-center gap-[4rem] mt-8 md:pr-8 w-full">
+            <div class="flex flex-col items-center md:flex-row justify-center gap-[4rem] mt-8 md:pr-8">
                 <Form/>
                 <nuxt-img format="webp" class="w-3/4 rounded md:w-[300px]" src="/images/alola.png" alt="alola"/>
             </div>
