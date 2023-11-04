@@ -1,7 +1,7 @@
 <template>
     <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem] w-full">
         <div class="flex flex-col items-center justify-center">
-            <Heading text="05. Get In Touch"/>
+            <Heading text="04. Get In Touch"/>
             <Quote
                 quote="You said you have a dream… That dream… Make it come true! Wonderful dreams and ideals give you the power to change the world!"
                 author="N"

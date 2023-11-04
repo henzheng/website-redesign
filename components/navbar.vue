@@ -8,7 +8,7 @@
                 <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/about">About</NuxtLink></li>
                 <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/experience">Experience</NuxtLink></li>
                 <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/projects">Projects</NuxtLink></li>
-                <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/blog">Blog</NuxtLink></li>
+                <!-- <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/blog">Blog</NuxtLink></li> -->
                 <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/contact">Contact</NuxtLink></li>
                 <li><a class="hover-underline-animation after:bg-black dark:after:bg-white" href="/resume.pdf">Resume</a></li>
             </ul>
