@@ -1,10 +1,10 @@
 <template>
-    <header class="top-0 ml-8 fixed w-full max-w-[768px] m-auto z-20 hidden md:flex">
+    <header class="top-0 ml-8 fixed w-full max-w-[768px] m-auto z-20 flex">
         <nav class="flex pt-10 pb-4 gap-5 w-full font-poppins items-center
                     bg-no-repeat bg-fixed bg-cover 
                     bg-[linear-gradient(hsla(0,0%,100%,0.925),hsla(0,0%,100%,0.925)),url('/images/sinnoh.jpg')]
                     dark:bg-[linear-gradient(rgba(0,0,0,0.925),rgba(0,0,0,0.925)),url('/images/sinnoh.jpg')]">
-            <ul class="flex flex-row gap-5">
+            <ul class="flex flex-row gap-5 text-sm md:text-base">
                 <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/about">About</NuxtLink></li>
                 <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/experience">Experience</NuxtLink></li>
                 <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/projects">Projects</NuxtLink></li>
