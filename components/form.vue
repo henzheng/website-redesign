@@ -10,7 +10,7 @@
                 class="outline-none p-2 rounded-lg bg-slate-100 dark:bg-slate-600" 
                 required placeholder="Your email" type="email" id="email">
             <textarea 
-                class="block outline-none p-2 rounded-lg resize-none bg-slate-100 dark:bg-slate-600"
+                class="block outline-none p-2 rounded-lg resize-none bg-slate-100 dark:bg-slate-600 text-left"
                 required placeholder="Your message" name="message" id="message" rows="3" cols="30">
             </textarea>
             <button class="bg-blue-500 w-[5rem] text-white rounded p-2 mx-auto mb-8" type="submit">
