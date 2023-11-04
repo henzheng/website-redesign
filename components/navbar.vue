@@ -1,5 +1,5 @@
 <template>
-    <header class="flex top-0 ml-8 fixed w-full max-w-[768px] m-auto z-20">
+    <header class="top-0 ml-8 fixed w-full max-w-[768px] m-auto z-20 hidden md:flex">
         <nav class="flex pt-10 pb-4 gap-5 w-full font-poppins items-center
                     bg-no-repeat bg-fixed bg-cover 
                     bg-[linear-gradient(hsla(0,0%,100%,0.925),hsla(0,0%,100%,0.925)),url('/images/sinnoh.jpg')]
@@ -8,7 +8,7 @@
                 <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/about">About</NuxtLink></li>
                 <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/experience">Experience</NuxtLink></li>
                 <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/projects">Projects</NuxtLink></li>
-                <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/blog">Blog</NuxtLink></li>
+                <!-- <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/blog">Blog</NuxtLink></li> -->
                 <li><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/contact">Contact</NuxtLink></li>
                 <li><a class="hover-underline-animation after:bg-black dark:after:bg-white" href="/resume.pdf">Resume</a></li>
             </ul>
@@ -36,7 +36,6 @@ function changeTheme() {
         localStorage.theme = "dark";
     }
 }
-
 onMounted(() => {
     if(localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
         document.documentElement.classList.add("dark");

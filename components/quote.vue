@@ -1,5 +1,5 @@
 <template>
-    <blockquote class="font-poppins text-sm italic">
+    <blockquote class="font-poppins text-xs md:self-start italic md:text-sm md:w-auto">
         "{{ quote }}"
         <cite>- {{ author }}, <span class="not-italic">{{ source }}</span></cite>
     </blockquote>
