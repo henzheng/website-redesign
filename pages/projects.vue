@@ -3,6 +3,7 @@
         <div class="flex flex-col items-center justify-center">
             <Heading text="03. Featured Projects"/>
             <Quote 
+                class="fade"
                 quote="We do have a lot in common.
                 The same earth, the same air, the same sky.
                 Maybe if we started looking at what's the same, instead of looking at what's different, well, who knows?"
@@ -12,13 +13,14 @@
         </div>
         <div class="flex flex-col items-center gap-[5rem] mb-5">
             <Project v-for="(project, index) in data" 
-                class="mt-5 swap flex"
+                class="project mt-5 swap flex"
                 :url="project.url" 
                 :image-path="project.imagePath" 
                 :project-role="project.projectRole" 
                 :description="project.description" 
                 :technologies="project.technologies" 
                 :project-name="project.projectName"
+                :key="index"
             />
         </div>
         <h3 class="font-poppins text-base text-center pb-0 mb-[-2rem] mt-14 md:my-6 md:mr-[2rem]">
@@ -33,8 +35,18 @@
 
 <script setup lang="ts">
 import data from "~/assets/content/projects.json";
+import { gsap } from "gsap";
 console.log(data);
 
+onMounted(() => {
+    gsap.from(".project", {
+        y:50,
+        autoAlpha: 0,
+        duration: 1,
+        stagger: 0.25,
+        ease: 'power1.out'
+    })
+})
 </script>
 
 <style scoped>

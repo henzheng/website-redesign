@@ -10,6 +10,7 @@
             cy="80"
         />
         <circle
+            ref="progressBar"
             class="text-[#4A90E2] dark:text-blue-600"
             stroke-width="5"
             stroke-linecap="round"
@@ -31,11 +32,27 @@
 </template>
 
 <script setup>
-
+import gsap from 'gsap';
+const progressBar = ref(null)
 const props = defineProps({
     title: String,
     line1: String,
     line2: String,
     percentage: Number,
+})
+
+const dashArray = computed(() => 55 * 2 * Math.PI);
+const dashOffset = computed(dashArray.value);
+
+onMounted(() => {
+    gsap.fromTo(
+        progressBar.value,
+        { strokeDashoffset: dashArray.value },
+        {
+            strokeDashoffset: dashArray.value - (props.percentage / 100) * dashArray.value,
+            duration: 2, // Duration in seconds
+            ease: 'power1.out', // Easing function
+        }
+    )
 })
 </script>
