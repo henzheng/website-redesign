@@ -33,6 +33,10 @@
 
 <script setup>
 import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 const progressBar = ref(null)
 const props = defineProps({
     title: String,
@@ -52,6 +56,11 @@ onMounted(() => {
             strokeDashoffset: dashArray.value - (props.percentage / 100) * dashArray.value,
             duration: 2, // Duration in seconds
             ease: 'power1.out', // Easing function
+            // scrollTrigger: {
+            //     trigger: progressBar.value, 
+            //     start: "top center", 
+            //     end: "bottom center", 
+            // }
         }
     )
 })

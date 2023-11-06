@@ -26,13 +26,20 @@
 
 <script setup>
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 onMounted(() => {
-    gsap.from(".fade", {
-        y:50,
-        autoAlpha: 0,
-        duration: 1,
-        stagger: 0.25,
-        ease: 'power1.out'
+    gsap.utils.toArray(".fade").forEach(element => {
+        gsap.from(element, {
+            y:50,
+            autoAlpha: 0,
+            duration: 1,
+            stagger: 0.25,
+            ease: 'power1.out',
+            scrollTrigger: element
+        })
     })
 })
 </script>

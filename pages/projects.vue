@@ -33,18 +33,21 @@
     </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import data from "~/assets/content/projects.json";
 import { gsap } from "gsap";
 console.log(data);
 
 onMounted(() => {
-    gsap.from(".project", {
-        y:50,
-        autoAlpha: 0,
-        duration: 1,
-        stagger: 0.25,
-        ease: 'power1.out'
+    gsap.utils.toArray(".project").forEach(element => {
+        gsap.from(element, {
+            y:50,
+            autoAlpha: 0,
+            duration: 1,
+            stagger: 0.25,
+            ease: 'power1.out',
+            scrollTrigger: element
+        })
     })
 })
 </script>

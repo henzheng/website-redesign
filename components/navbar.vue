@@ -61,6 +61,11 @@ function changeTheme() {
     }
 }
 
+// useHead({
+//     script: [{
+//         children: "const isLightTheme=ref(false); if(localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) { document.documentElement.classList.add('dark'); isLightTheme.value = false; } else { document.documentElement.classList.remove('dark'); isLightTheme.value = true; }"
+//     }]
+// })
 onMounted(() => {
     if(localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
         document.documentElement.classList.add("dark");

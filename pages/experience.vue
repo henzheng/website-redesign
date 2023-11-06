@@ -9,7 +9,7 @@
                 author="Mewtwo"
                 source="Pokemon: The Movie."
             />
-            <nuxt-img format="webp" class="fade md:w-1/2 md:mr-0" src="/images/pla-mining.png" alt="working experiences"/>
+            <nuxt-img format="webp" class="fade md:w-[55%] md:mr-0" src="/images/pla-mining.png" alt="working experiences"/>
         </div>
         <div class="flex flex-col justify-between gap-8">
             <p class="fade text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
@@ -50,14 +50,21 @@
 <script setup>
 import skills from "~/assets/content/skills.json";
 import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
 console.log(skills)
 onMounted(() => {
-    gsap.from(".fade", {
-        y:50,
-        autoAlpha: 0,
-        duration: 1,
-        stagger: 0.25,
-        ease: 'power1.out'
+    gsap.utils.toArray(".fade").forEach(element => {
+        gsap.from(element, {
+            y:50,
+            autoAlpha: 0,
+            duration: 1,
+            stagger: 0.25,
+            ease: 'power1.out',
+            scrollTrigger: element
+        })
     })
 })
 </script>
