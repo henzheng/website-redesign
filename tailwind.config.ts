@@ -20,11 +20,5 @@ module.exports = {
         {
             pattern: /^bg-(gray|red|orange|yellow|green|teal|blue|indigo|purple|pink|rose)-300$/
         },
-        {
-            pattern: /ml-\[.*?\]/, // This will match any class like `ml-[50px]`, `ml-[1rem]`, etc.
-        },
-        {
-            pattern: /mt-\[.*?\]/, // This will match any class like `mt-[50px]`, `mt-[1rem]`, etc.
-        },
     ]
 }
