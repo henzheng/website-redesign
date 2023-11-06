@@ -16,7 +16,6 @@
                 Over the course of my high school career, I have always been proactive in seeking out internship opportunities. 
                 I've been fortunate enough to have the opportunity to work for various tech companies, where <i>I honed my programming abilities and learned to adapt to a professional environment.</i> 
                 These internships have provided me with invaluable insights into the tech industry, and allowed me to work alongside experienced professionals.
-                Through these experiences, I have grown both personally and professionally, paving the way for a promising future in the field of technology.
                 For a more comprehensive overview, take a look at my resume!
             </p>
             <div class="fade flex flex-row w-full items-center">
@@ -29,7 +28,13 @@
             <h3 class="font-poppins text-2xl mr-4">Skills & Technologies </h3>
             <hr class="border-[1.5px] border-black dark:border-white w-[200px] hidden md:block">
         </div>
-        <div class="fade flex flex-row flex-wrap items-center mt-4 gap-y-[2rem] h-fit md:mx-0 md:w-full md:gap-y-0">
+        <p class="fade font-poppins text-sm my-6 leading-7 md:mt-2">
+            Constantly experimenting with different technologies when building projects, I've become familiar with a wide array of industry-standard tools and languages.
+            My experience spans from coding in various web development languages and frameworks to deploying applications with Docker.
+            <i>Click or hover over each icon to see what it is!</i>
+        </p>
+        <HoneycombGrid/>
+        <!-- <div class="fade flex flex-row flex-wrap items-center mt-4 gap-y-[2rem] h-fit md:mx-0 md:w-full md:gap-y-0">
             <Badge 
                 v-for="(skill, index) in skills"
                 :title="skill.title"
@@ -38,7 +43,7 @@
                 :description="skill.description"
                 :id="index"
             />
-        </div>
+        </div> -->
     </div>
 </template>
 

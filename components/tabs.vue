@@ -144,7 +144,6 @@ function openTab(event) {
         height: 50vh;
         width: 90vw;
         gap: 2rem;
-        margin-bottom: 2rem;
     }
 
     .tab {
