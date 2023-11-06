@@ -1,7 +1,7 @@
 <template>
     <header class="top-0 md:ml-8 fixed w-full max-w-[768px] m-auto z-20 flex">
         <!-- Hamburger Menu Button -->
-        <button id="hamburger" @click="toggleMenu" class="ml-auto mr-4 mt-4 md:hidden p-2 focus:outline-none focus:ring-2 focus:ring-gray-300 z-20">
+        <button id="hamburger" @click="toggleMenu" aria-label="hamburger menu" class="ml-auto mr-4 mt-4 md:hidden p-2 focus:outline-none focus:ring-2 focus:ring-gray-300 z-20">
             <svg :class="menuOpen ? 'rotate-90' : ''" class="w-6 h-6 transition-transform transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path v-if="!menuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                 <path v-else stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>

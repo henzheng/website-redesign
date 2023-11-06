@@ -56,11 +56,10 @@ onMounted(() => {
             strokeDashoffset: dashArray.value - (props.percentage / 100) * dashArray.value,
             duration: 2, // Duration in seconds
             ease: 'power1.out', // Easing function
-            // scrollTrigger: {
-            //     trigger: progressBar.value, 
-            //     start: "top center", 
-            //     end: "bottom center", 
-            // }
+            scrollTrigger: {
+                trigger: progressBar.value, 
+                start: "top bottom", 
+            }
         }
     )
 })
