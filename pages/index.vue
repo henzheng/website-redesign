@@ -6,19 +6,19 @@
                     <h1 class="font-poppins"><span class="font-poppins text-base">Hey I'm</span><br><SplitText #id="reveal" text="Henry Zheng"/></h1>
                     <h2 class="text-xl font-poppins">Programmer, Tech Enthusiast</h2>
                     <span class="hidden md:inline-block text-base font-poppins">Currently a student 
-                        <a 
+                        <a  target="_blank"
                             class="text-[#00a6ed] inline-block transition ease-in-out hover:translate-y-[-2.5px]" 
                             href="https://siths.org/">@ Staten Island Technical High School 🎓
                         </a>
                     </span>
                     <span class="text-base md:hidden font-poppins whitespace-nowrap mt-[-3rem]">Currently a student 
-                        <a 
+                        <a  target="_blank"
                             class="text-[#00a6ed] inline-block transition ease-in-out hover:translate-y-[-2.5px]" 
                             href="https://siths.org/">@ Staten Island Tech 🎓
                         </a>
                     </span>
                 </div>
-                <nuxt-img format="webp" class="w-1/2 aspect-square md:w-[28%]" src="/images/profile.png" alt="avatar"/>
+                <img class="w-1/2 aspect-square md:w-[28%]" src="/images/profile.png" alt="avatar"/>
             </div>
         </div>
         <div class="flex flex-col items-center gap-4 mt-[2.25rem]">

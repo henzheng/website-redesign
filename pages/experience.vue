@@ -9,7 +9,7 @@
                 author="Mewtwo"
                 source="Pokemon: The Movie."
             />
-            <nuxt-img format="webp" class="fade md:w-[55%] md:mr-0" src="/images/pla-mining.png" alt="working experiences"/>
+            <img class="fade md:w-[55%] md:mr-0" src="/images/pla-mining.png" alt="working experiences"/>
         </div>
         <div class="flex flex-col justify-between gap-8">
             <p class="fade text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">

@@ -8,7 +8,7 @@
                 author="N"
                 source="Pokemon Black & White"
             />
-            <nuxt-img format="webp" class="fade py-4 w-3/4 md:w-1/2" src="/images/psm-pokedex.png" alt="pokedex"/>
+            <img class="fade py-4 w-3/4 md:w-1/2" src="/images/psm-pokedex.png" alt="pokedex"/>
             <p class="fade font-poppins text-sm mt-8">
                 Alright, what's next?
                 Feel free to send a message through social media or email if you want to get in touch!
@@ -18,7 +18,7 @@
             </p>
             <div class="flex flex-col items-center md:flex-row justify-center gap-[4rem] mt-8 md:pr-8">
                 <Form class="fade"/>
-                <nuxt-img format="webp" class="fade w-3/4 rounded md:w-[300px]" src="/images/alola.png" alt="alola"/>
+                <img class="fade w-3/4 rounded md:w-[300px]" src="/images/alola.png" alt="alola"/>
             </div>
         </div>
     </div>

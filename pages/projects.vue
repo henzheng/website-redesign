@@ -25,7 +25,7 @@
         </div>
         <h3 class="font-poppins text-base text-center pb-0 mb-[-2rem] mt-14 md:my-6 md:mr-[2rem]">
             Want to see more of my work? View my 
-            <a class="text-[#00a6ed] inline-block transition ease-in-out hover:translate-y-[-2.5px]" 
+            <a target="_blank" class="text-[#00a6ed] inline-block transition ease-in-out hover:translate-y-[-2.5px]" 
                href="https://github.com/nullZheng">
                Github profile!
             </a>
