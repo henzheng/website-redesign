@@ -38,7 +38,7 @@ const getGridClass = (index) => {
 const technologies = [
     ['CSS', 'Django', 'Docker', 'HTML', 'JavaScript', 'MongoDB', 'Nuxt'],
     ['Python', 'React', 'Supabase', 'Svelte', 'TailwindCSS', 'Ubuntu', 'Vue'],
-    ['TypeScript', 'Git', 'Node', 'GitHub', 'Figma'],
+    ['TypeScript', 'Git', 'Node', 'GitHub', 'Figma', 'HuggingFace', 'PyTorch'],
 ]
 </script>
 
