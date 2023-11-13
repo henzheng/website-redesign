@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-center items-center w-[80vw] md:w-[30rem]
+    <div class="flex flex-col justify-center items-center w-full h-3/4 md:w-[350px] md:h-[350px]
                 rounded shadow-2xl bg-white dark:bg-slate-800">
         <h3 class="font-poppins text-xl mt-10 mb-4">Send me a message!</h3>
         <form @submit.prevent="sendEmail" autocomplete="off" class="font-poppins flex flex-col text-sm gap-4 w-3/4 h-3/4">

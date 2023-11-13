@@ -14,15 +14,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 onMounted(() => {
-  // GSAP animation
   gsap.from('.hexagon', {
     delay: 0.5,
-    scale: 0, // start from scale 0
-    opacity: 0, // start from opacity 0
-    stagger: 0.1, // 0.1 second delay per hexagon
-    duration: 0.5, // 0.5 seconds for each animation
-    ease: 'elastic.out(1, 0.3)', // an elastic easing
-    scrollTrigger: '.hexagon'
+    scale: 0, 
+    opacity: 0, 
+    stagger: 0.1, 
+    duration: 0.5, 
+    ease: 'elastic.out(1, 0.3)', 
+    scrollTrigger: '.hexagon',
   });
 });
 
