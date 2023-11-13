@@ -1,6 +1,5 @@
 <template>
 
-<!-- Circle -->
 <div class="flex flex-row items-center"> 
   <Circle title="03" line1="Internships" line2="Worked" :percentage="60"/>
   <Circle title="07" line1="Web" line2="Frameworks" :percentage="85"/>

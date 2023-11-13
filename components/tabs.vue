@@ -86,6 +86,10 @@ function openTab(event) {
     color: #00a6ed ;
 }
 
+.tab button:hover {
+    color: #00a6ed;
+}
+
 .tabcontent {
     display: none;
     width: 66%;
