@@ -4,8 +4,7 @@
             <Heading text="02. Working Experiences"/>
             <Quote
                 class="fade"
-                quote="I see now that the circumstances of one's birth are irrelevant;
-                it is what you do with the gift of life that determines who you are."
+                quote="I see now that the circumstances of one's birth are irrelevant; it is what you do with the gift of life that determines who you are."
                 author="Mewtwo"
                 source="Pokemon: The Movie."
             />
@@ -34,16 +33,6 @@
             <i>Click or hover over each icon to see what it is!</i>
         </p>
         <HoneycombGrid/>
-        <!-- <div class="fade flex flex-row flex-wrap items-center mt-4 gap-y-[2rem] h-fit md:mx-0 md:w-full md:gap-y-0">
-            <Badge 
-                v-for="(skill, index) in skills"
-                :title="skill.title"
-                :imageUrl="skill.imageUrl"
-                :imageName="skill.imageName"
-                :description="skill.description"
-                :id="index"
-            />
-        </div> -->
     </div>
 </template>
 
