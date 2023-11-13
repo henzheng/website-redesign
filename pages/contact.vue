@@ -16,9 +16,9 @@
                 I'm always open to new opportunities and learning experiences. 
                 I check my inboxes often, so I'll try my best to get back to you as soon as possible!
             </p>
-            <div class="flex flex-col items-center md:flex-row justify-center gap-[4rem] mt-8 md:pr-8">
+            <div class="flex flex-col items-center md:flex-row justify-between gap-[1rem] mt-8">
                 <Form class="fade"/>
-                <img class="fade w-3/4 rounded md:w-[300px]" src="/images/alola.png" alt="alola"/>
+                <img class="fade w-3/4 rounded md:w-[350px]" src="/images/alola.png" alt="alola"/>
             </div>
         </div>
     </div>

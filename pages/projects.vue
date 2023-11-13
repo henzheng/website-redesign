@@ -4,9 +4,7 @@
             <Heading text="03. Featured Projects"/>
             <Quote 
                 class="fade"
-                quote="We do have a lot in common.
-                The same earth, the same air, the same sky.
-                Maybe if we started looking at what's the same, instead of looking at what's different, well, who knows?"
+                quote="We do have a lot in common. The same earth, the same air, the same sky. Maybe if we started looking at what's the same, instead of looking at what's different, well, who knows?"
                 author="Meowth"
                 source="Pokemon Anime"
             />
