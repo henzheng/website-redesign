@@ -28,7 +28,7 @@
                 <i>I aim to create engaging, accessible apps for the web.</i>
                 With over 4 years of coding experience, I specialize in <i>web development</i>, and more recently, <i>machine learning</i>.
                 My goals this upcoming year include getting better at <i>competitive programming</i> and familiarizing myself with <i>C++.</i>
-                Thanks for stopping by!
+                Thanks for visiting!
             </p>
             <nav class="font-poppins text-base mt-[1.5rem] self-start">
                 <ul class="flex flex-col gap-[0.375rem]" v-for="link in data">

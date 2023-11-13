@@ -11,7 +11,7 @@
                 source="Pokemon Anime"
             />
         </div>
-        <div class="flex flex-col items-center gap-[5rem] mb-5">
+        <div class="flex flex-col items-center gap-[3.5rem] mb-5">
             <Project v-for="(project, index) in data" 
                 class="project mt-5 swap flex"
                 :url="project.url" 

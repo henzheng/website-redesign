@@ -22,14 +22,17 @@
                 In fact, this website was built using <i>Nuxt.js and Tailwind CSS!</i>
             </p>
             <Progess class="flex-wrap justify-center"/>
-            <h2 class="fade font-poppins text-lg italic self-start">Excelsior. Ever Upward.</h2>
-            <div class="flex flex-col-reverse md:flex-row gap-[2.75rem] mt-2 mb-4">
-                <p class="fade text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
-                    <i>Excelsior</i>—my guiding principle from the vibrant streets of NYC, deeply resonates with my approach to programming.
-                    With each project, I strive to learn something new, push boundaries, and deliver exceptional web experiences.
-                    The future holds <i>endless possibilities</i>, and I can't wait to see where this journey takes me.
-                </p>
-                <img class="fade w-[225px] h-fit self-center md:w-1/3 md:h-auto aspect-auto rounded md:mr-6" src="/images/pbw-promo-artwork.jpg" alt="childhood"/>
+            <div class="flex flex-col md:flex-row gap-[2.75rem]">
+                <div class="flex flex-col gap-6 md:gap-[2.75rem] mb-4">
+                    <h2 class="fade font-poppins text-lg italic self-start mt-0">Excelsior. Ever Upward.</h2>
+                    <img class="md:hidden fade w-[225px] h-fit self-center aspect-auto rounded" src="/images/pbw-promo-artwork.jpg" alt="childhood"/>
+                    <p class="fade text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
+                        <i>Excelsior</i>—my guiding principle from the vibrant streets of NYC, deeply resonates with my approach to programming.
+                        With each project, I strive to learn something new, push boundaries, and deliver exceptional web experiences.
+                        The future holds <i>endless possibilities</i>, and I can't wait to see where this journey takes me.
+                    </p>
+                </div>
+                <img class="hidden md:block fade w-[300px] h-fit self-center md:w-1/3 md:h-auto aspect-auto rounded" src="/images/pbw-promo-artwork.jpg" alt="childhood"/>
             </div>
         </div>
     </div>
