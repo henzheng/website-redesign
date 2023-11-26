@@ -30,7 +30,7 @@
                         The future holds <i>endless possibilities</i>, and I can't wait to see where this journey takes me.
                     </p>
                 </div>
-                <img class="hidden md:block fade w-[15vw] self-center rounded" src="/images/pxy-lumiose-city-street.jpg" alt="city street"/>
+                <img class="hidden md:block fade w-[15vw] max-w-[20rem] self-center rounded" src="/images/pxy-lumiose-city-street.jpg" alt="city street"/>
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 [
     {
-        "url": "/",
+        "url": "https://github.com/nullZheng/website-redesign",
         "imagePath": "/images/sinnoh.jpg",
         "projectName": "Portfolio Website",
         "projectRole": "Sole Developer",
@@ -20,7 +20,7 @@
         "url": "https://github.com/nullZheng/TravelerJS",
         "imagePath": "/images/genshin.jpg",
         "projectName": "Traveler Discord Bot",
-        "projectRole": "Sole Developer",
+        "projectRole": "Backend Developer",
         "description": "An easy-to-use Genshin Impact wiki right in the comfort of your Discord server!",
         "technologies": [
             {
@@ -37,7 +37,7 @@
         "url": "https://github.com/nullZheng/Data-Visualization",
         "imagePath": "/images/starters.jpg",
         "projectName": "Pokemon Data Visualization",
-        "projectRole": "Sole Developer",
+        "projectRole": "Frontend Developer",
         "description": "Take a look at the data behind the original 151 Pokemon with stunning visuals and a new perspective.",
         "technologies": [
             {
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "url": "https://random-valorant.netlify.app",
+        "url": "https://github.com/nullZheng/AP-Create-Task",
         "imagePath": "/images/valorant.jpg",
         "projectName": "Random Valorant Generator",
         "projectRole": "Sole Developer",

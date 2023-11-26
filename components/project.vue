@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col w-[90vw] items-center md:items-start md:w-auto md:flex-row gap-4">
         <div class="flex items-center justify-center aspect-video w-[80%] lg:w-1/2 transition ease-in-out hover:opacity-75">
-            <a :href="url">
+            <a :href="url" target="_blank">
                 <img class="rounded-md" :src="imagePath" :alt="projectName" />
             </a>
         </div>
@@ -17,10 +17,10 @@
                     {{ tech.technologyName }}
                 </li>
             </ul>
-            <div class="flex flex-row gap-3 text-xl mt-4">
+            <!-- <div class="flex flex-row gap-3 text-xl mt-4">
                 <Icon class="cursor-pointer" name="ion:logo-github" />
                 <Icon class="cursor-pointer" name="iconoir:open-new-window" />
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
