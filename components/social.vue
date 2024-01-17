@@ -5,13 +5,13 @@
         </div>
         <div class="border-l-2 border-solid border-black dark:border-white h-[8rem] ml-1 mb-[40px]"></div>
         <ul class="flex flex-col items-center m-0 p-0 list-none text-black dark:text-white text-2xl gap-4 mb-[4rem]">
-            <a target="_blank" href="https://github.com/nullZheng">
+            <a target="_blank" href="https://github.com/henzheng/">
                 <Icon class="transition ease-in-out hover:translate-y-[-0.25rem] cursor-pointer" name="ion:logo-github" />
             </a>
-            <a target="_blank" href="https://www.instagram.com/henry._.zheng/">
+            <a target="_blank" href="https://www.instagram.com/hen.zheng/">
                 <Icon class="transition ease-in-out hover:translate-y-[-0.25rem] cursor-pointer" name="ion:logo-instagram" />
             </a>
-            <a target="_blank" href="https://www.linkedin.com/in/zheng-henry2006/">
+            <a target="_blank" href="https://www.linkedin.com/in/henryzheng1227/">
                 <Icon class="transition ease-in-out hover:translate-y-[-0.25rem] cursor-pointer" name="ion:logo-linkedin" />
             </a>
         </ul>
