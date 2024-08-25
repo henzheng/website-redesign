@@ -12,10 +12,28 @@ module.exports = {
         extend: {
             fontFamily: {
                 "poppins": "Poppins, sans-serif",
+                "bogart": "Bogart, sans-serif",
+                "mallory": ["Mallory", "sans-serif"],
+                "satoshi": ["Satoshi", "sans-serif"],
+                "sentient": ["Sentient", "sans-serif"],
+                "gambetta": ["Gambetta", "sans-serif"],
+                "bespoke": ["Bespoke", "sans-serif"],
+            },
+            textDecorationStyle: {
+                dotted: "dotted",
             }
         },
     },
-    plugins: [],
+    plugins: [
+        function ({ addUtilities }) {
+            addUtilities({
+            '.text-decoration-dotted': {
+                'text-decoration-style': 'dotted',
+            }
+            })
+        }
+        
+    ],
     safelist: [
         {
             pattern: /^bg-(gray|red|orange|yellow|green|teal|blue|indigo|purple|pink|rose)-300$/

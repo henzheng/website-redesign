@@ -8,7 +8,7 @@
             </svg>
         </button>
         <nav v-if="menuOpen" id="navbar"
-            class="fixed inset-0 bg-white dark:bg-[#121212] flex flex-col pt-10 pb-4 gap-5 w-full itmes-center font-poppins z-10 justify-center">
+            class="fixed inset-0 bg-white dark:bg-[#121212] flex flex-col pt-10 pb-4 gap-5 w-full itmes-center font-satoshi z-10 justify-center">
             <ul class="flex flex-col md:flex-row gap-5 text-2xl md:text-base items-center justify-center">
                 <li @click="toggleMenu"><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/">Home</NuxtLink></li>
                 <li @click="toggleMenu"><NuxtLink class="hover-underline-animation after:bg-black dark:after:bg-white" to="/about">About</NuxtLink></li>
@@ -20,7 +20,7 @@
             </ul>
         </nav>
         <nav v-else id="navbar"
-            class="hidden md:flex flex-row pt-10 pb-4 gap-5 w-full font-poppins items-center
+            class="hidden md:flex flex-row pt-10 pb-4 gap-5 w-full font-satoshi items-center
                     bg-no-repeat bg-fixed bg-cover 
                     bg-[linear-gradient(hsla(0,0%,100%,0.925),hsla(0,0%,100%,0.925)),url('/images/sinnoh.jpg')]
                     dark:bg-[linear-gradient(rgba(0,0,0,0.925),rgba(0,0,0,0.925)),url('/images/sinnoh.jpg')]">

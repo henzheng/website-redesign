@@ -49,7 +49,7 @@ function openTab(event) {
     flex-direction: row;
     width: 100%;
     height: 200px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Satoshi', sans-serif;
     gap: 3rem;
 }
 
@@ -61,7 +61,7 @@ function openTab(event) {
 }
 
 .tab button {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Satoshi', sans-serif;
     font-size: 0.9rem;
     line-height: 1.25rem;
     border: none;

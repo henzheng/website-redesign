@@ -9,7 +9,7 @@
                 source="Pokemon Black & White"
             />
             <img class="fade py-4 w-3/4 md:w-1/2" src="/images/psm-pokedex.png" alt="pokedex"/>
-            <p class="fade font-poppins text-sm mt-8">
+            <p class="fade font-sentient text-sm mt-8">
                 Alright, what's next?
                 Feel free to send a message through social media or email if you want to get in touch!
                 <i>The best way to contact me is via email.</i>

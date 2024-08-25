@@ -2,7 +2,7 @@
     <div :class="getGridClass(index)" v-for="(row, index) in technologies" :key="`row-${index}`">
         <div v-for="(technology, imageIndex) in row" :key="`image-${imageIndex}`" class="hexagon">
             <img class="hexagon-image" :src="'/technologies/' + technology.toLowerCase() + '.png'" :alt="technology">
-            <div class="hexagon-text font-poppins text-sm">{{ technology }}</div>
+            <div class="hexagon-text font-satoshi text-sm">{{ technology }}</div>
         </div>
     </div>
 </template>
