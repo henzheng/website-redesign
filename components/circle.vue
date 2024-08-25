@@ -23,10 +23,10 @@
             cy="80"
             transform="rotate(-270, 80, 80)"
         />
-        <text x="80" y="65" dominant-baseline="middle" text-anchor="middle" class="font-poppins text-2xl text-[#4A90E2] dark:text-white" fill="currentColor">
+        <text x="80" y="65" dominant-baseline="middle" text-anchor="middle" class="font-sentient text-2xl text-[#4A90E2] dark:text-white" fill="currentColor">
             <tspan>{{ props.title }}</tspan>
-            <tspan class="font-poppins text-xs" x="80" dy="2em">{{ props.line1 }}</tspan>
-            <tspan class="font-poppins text-xs" x="80" dy="1.5em">{{ props.line2 }}</tspan>
+            <tspan class="font-sentient text-xs" x="80" dy="2em">{{ props.line1 }}</tspan>
+            <tspan class="font-sentient text-xs" x="80" dy="1.5em">{{ props.line2 }}</tspan>
         </text>
     </svg>
 </template>

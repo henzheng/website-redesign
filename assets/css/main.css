@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Bogart;
+    font-display: swap;
+    src: url(~/assets/fonts/Bogart-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Mallory;
+    font-display: swap;
+    src: url(~/assets/fonts/MalloryBook.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Satoshi;
+    font-display: swap;
+    src: url(~/assets/fonts/Satoshi-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Sentient;
+    font-display: swap;
+    src: url(~/assets/fonts/Sentient-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Gambetta;
+    font-display: swap;
+    src: url(~/assets/fonts/Gambetta-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Bespoke;
+    font-display: swap;
+    src: url(~/assets/fonts/BespokeSerif-Regular.woff2) format('woff2');
+}

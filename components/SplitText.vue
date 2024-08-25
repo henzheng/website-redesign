@@ -1,5 +1,5 @@
 <template>
-    <div id="reveal" class="font-poppins inline-block">
+    <div id="reveal" class="font-sentient inline-block">
         <div class="char inline-block" v-for="(char, index) in characters" :key="index">
             {{ char === ' ' ? '&nbsp;' : char }}
         </div>

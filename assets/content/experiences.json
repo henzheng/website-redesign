@@ -1,46 +1,46 @@
 [   
     {
-        "position": "Web Development Intern",
+        "position": "Project Manager",
+        "url": "https://www.siths.org/",
+        "workplace": "Staten Island Tech",
+        "timeframe": "Sep 2023 - Present",
+        "description": [
+            "Lead development of school-wide apps improving quality of life",
+            "Delegate tasks; manage GitHub repos; maintain & deploy apps"
+        ],
+        "id": "SITHS"
+    },
+    {
+        "position": "Web Dev Intern",
         "url": "https://www.tygasmart.com/",
         "workplace": "TygaSmart Systems",
         "timeframe": "Feb 2023 - Apr 2023",
         "description": [
-            "Collaborated with developers to redesign the company's web app using Figma.",
-            "Curated a comprehensive collection of 2D and 3D furniture assets for the company's digital floor planner"
+            "Collaborate with dev. team in Mexico; implement web app layouts",
+            "Compile collection of furniture assets for firm’s digital floor planner"
         ],
         "id": "TS"
     },
     {
         "position": "Lead Developer",
         "url": "https://bruzzeses.com/",
-        "workplace": "Bruzzese’s Italian Gourmet",
+        "workplace": "Bruzzese’s",
         "timeframe": "Sep 2022 - Nov 2022",
         "description": [
-            "Created an order management system to enhance tracking of current and past orders, optimizing operational efficiency",
-            "Contributed to team efforts and excelled in solo tasks to deliver a high-quality product"
+            "Built a local order management system for a local business",
+            "Conducted extensive testing and debugging to ensure robustness"
         ],
         "id": "BG"
     },
     {
-        "position": "Information Technology Intern",
+        "position": "IT Intern",
         "url": "https://agscard.com/",
-        "workplace": "AGS Card Grading",
+        "workplace": "AGS Grading",
         "timeframe": "Jul 2022 - Aug 2022",
         "description": [
-            "Served as an IT intern, applying AV editing skills to support advertisement and production initiatives",
-            "Collaborated closely with peers over social media platforms to assist with customer accquistion"
+            "Utilize AV editing to assist with ad production & customer acquisition",
+            "Research competitors and present insights to peers & supervisors"
         ],
         "id": "AGS"
-    },
-    {
-        "position": "Summer Intern",
-        "url" : "https://unitedactivities.org/",
-        "workplace": "United Activities Unlimited",
-        "timeframe": "Jul 2021 - Aug 2021",
-        "description": [
-            "Honed leadership, time management, and communication skills, gaining insight into my chosen career path",
-            "Dual role performance as host and audio technician for the cohort's live final presentation"
-        ],
-        "id": "UAU"
     }
 ]
