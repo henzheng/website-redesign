@@ -11,7 +11,7 @@
             <img class="fade md:w-[55%] md:mr-0" src="/images/pla-mining.png" alt="working experiences"/>
         </div>
         <div class="flex flex-col justify-between gap-8">
-            <p class="fade text-sm mt-6 font-bogart leading-7 md:mt-2 md:w-auto">
+            <p class="fade text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
                 Over the years, I've always been proactive in gaining <u>real-world experience</u>.
                 Working with industry professionals, I've adapted to <u>collaborative workflows</u>
                 and familiarized myself with various <u>tech stacks</u> and <u>frameworks</u>.
@@ -27,7 +27,7 @@
             <h3 class="font-sentient text-2xl mr-4">Skills & Technologies </h3>
             <hr class="border-[1.5px] border-black dark:border-white w-[200px] hidden md:block">
         </div>
-        <p class="fade font-bogart text-sm my-6 leading-7 md:mt-2">
+        <p class="fade font-poppins text-sm my-6 leading-7 md:mt-2">
             Constantly experimenting, I'm familiar with a wide array of industry-standard tools and languages.
         </p>
         <HoneycombGrid/>

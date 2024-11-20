@@ -11,7 +11,7 @@
             <img class="fade mt-4 md:w-[60%] md:mr-0" src="/images/pla-camp.png" alt="camp"/>
         </div>
         <div class="flex flex-col justify-between w-full md:items-center gap-8">
-            <p class="fade text-sm mt-6 font-bogart leading-7 md:mt-2 md:w-auto">
+            <p class="fade text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
                 Hey, Henry here!
                 My intro to programming came from coding on the TI-calculator.
                 This experience sparked my interest in tech, leading me to learn <u>Python</u> as my first programming language.
@@ -24,7 +24,7 @@
                 <div class="flex flex-col gap-6 md:gap-[2rem] mb-4">
                     <h2 class="fade font-sentient text-2xl italic self-start mt-0">Excelsior. Ever Upward.</h2>
                     <img class="md:hidden fade w-[225px] h-fit self-center aspect-auto rounded" src="/images/pxy-lumiose-city-street.jpg" alt="city street"/>
-                    <p class="fade text-sm mt-6 font-bogart leading-7 md:mt-2 md:w-auto">
+                    <p class="fade text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
                         "Excelsior"—my motto from the vibrant streets of New York—reflects my approach to programming.
                         With each project, I strive to <u>learn something new, push boundaries, and deliver exceptional work.</u>
                         The future holds endless possibilities for growth, and I can't wait to see where this journey takes me.

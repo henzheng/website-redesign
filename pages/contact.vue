@@ -9,11 +9,12 @@
                 source="Pokemon Black & White"
             />
             <img class="fade py-4 w-3/4 md:w-1/2" src="/images/psm-pokedex.png" alt="pokedex"/>
-            <p class="fade text-sm mt-8 font-bogart leading-7 md:mt-2 md:w-auto">
-                What's next?
-                Send a message through social media or email if you want to get in touch!
-                <u>The best way to contact me is via email.</u>
-                I'm always open to new opportunities and learning experiences. 
+            <p class="fade text-sm mt-8 font-poppins leading-7 md:mt-2 md:w-auto">
+                So, what's next?
+                Please send a message via social media or email if you want to get in touch!
+                The best way to contact me is via email.
+                I'll get back to you as soon as possible.
+
             </p>
             <div class="flex flex-col items-center md:flex-row justify-between gap-[1rem] mt-8">
                 <Form class="fade"/>

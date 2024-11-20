@@ -16,13 +16,13 @@
             </div>
         </div>
         <div class="flex flex-col items-center gap-4 mt-[2.25rem]">
-            <p class="text-base font-satoshi leading-7">
+            <p class="text-sm font-poppins leading-7">
                 Henry is an aspiring <u>software engineer</u> from NYC with a passion for creating <u>engaging, accessible apps for the web.</u>
                 With over four years of coding experience, he specializes in <u>full-stack web development</u>.
                 Recently, Henry is interested in <u>machine learning</u> and <u>competitive programming</u>.
                 Thanks for visiting!
             </p>
-            <nav class="font-satoshi text-base mt-[1.5rem] self-start">
+            <nav class="font-poppins text-sm mt-[1.5rem] self-start">
                 <ul class="flex flex-col gap-[0.375rem]" v-for="link in data">
                     <li class="flex flex-row gap-2 pt-4">
                         <div>{{ link.emoji }}</div>
