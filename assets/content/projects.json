@@ -1,77 +1,72 @@
 [
     {
-        "url": "https://github.com/nullZheng/website-redesign",
-        "imagePath": "/images/sinnoh.jpg",
-        "projectName": "Portfolio Website",
-        "projectRole": "Sole Developer",
-        "description": "A simple, clean portfolio website displaying my information and accomplishments.",
+        "url": "https://coursetable.com",
+        "imagePath": "/images/CourseTable.png",
+        "projectName": "CourseTable",
+        "projectRole": "Full Stack Developer",
+        "description": "CourseTable is an intuitive and helpful course-searching platform used by thousands of Yale students to browse courses, create makeshift schedules, and more. ",
         "technologies": [
             {
-                "technologyName": "Nuxt.js",
-                "technologyColor": "green"
+                "technologyName": "React",
+                "technologyColor": "blue"
             },
             {
-                "technologyName": "TailwindCSS",
+                "technologyName": "TypeScript",
                 "technologyColor": "blue"
+            },
+            {
+                "technologyName": "Docker",
+                "technologyColor": "blue"
+            },
+            {
+                "technologyName": "GraphQL",
+                "technologyColor": "pink"
             }
         ]
     },
     {
-        "url": "https://github.com/nullZheng/TravelerJS",
-        "imagePath": "/images/genshin.jpg",
-        "projectName": "Traveler Discord Bot",
-        "projectRole": "Backend Developer",
-        "description": "An easy-to-use Genshin Impact wiki right in the comfort of your Discord server!",
+        "url": "https://yhack.org",
+        "imagePath": "/images/YHack2024.png",
+        "projectName": "YHack",
+        "projectRole": "Developer",
+        "description": "YHack is Yale’s premier annual hackathon, uniting students from across the nation to innovate and collaborate on software engineering projects. ",
         "technologies": [
+            {
+                "technologyName": "Vue",
+                "technologyColor": "green"
+            },
             {
                 "technologyName": "Javascript",
                 "technologyColor": "yellow"
             },
             {
-                "technologyName": "Discord.js",
-                "technologyColor": "purple"
-            }
-        ]
-    },
-    {
-        "url": "https://github.com/nullZheng/Data-Visualization",
-        "imagePath": "/images/starters.jpg",
-        "projectName": "Pokemon Data Visualization",
-        "projectRole": "Frontend Developer",
-        "description": "Take a look at the data behind the original 151 Pokemon with stunning visuals and a new perspective.",
-        "technologies": [
-            {
-                "technologyName": "Svelte",
-                "technologyColor": "orange"
-            },
-            {
-                "technologyName": "D3.js",
-                "technologyColor": "orange"
-            },
-            {
-                "technologyName": "Chart.js",
-                "technologyColor": "red"
-            }
-        ]
-    },
-    {
-        "url": "https://github.com/nullZheng/AP-Create-Task",
-        "imagePath": "/images/valorant.jpg",
-        "projectName": "Random Valorant Generator",
-        "projectRole": "Sole Developer",
-        "description": "Don't know what to choose? Generate agents or maps to randomize your gameplay.",
-        "technologies": [
-            {
                 "technologyName": "HTML",
-                "technologyColor": "orange"
+                "technologyColor": "red"
             },
             {
                 "technologyName": "CSS",
                 "technologyColor": "blue"
+            }
+        ]
+    },
+    {
+        "url": "https://siths-catalog.netlify.app/",
+        "imagePath": "/images/SITHS_Course_Catalog_2.png",
+        "projectName": "SI Tech Course Selection",
+        "projectRole": "Full Stack Developer",
+        "description": "The lead project of my high school’s 2023-2024 development cycle, this TypeScript and Python-powered course selection platform streamlined enrollment for 1K+ students.",
+        "technologies": [
+            {
+                "technologyName": "Vue",
+                "technologyColor": "green"
             },
             {
-                "technologyName": "Javascript",
-                "technologyColor": "yellow"
+                "technologyName": "Django",
+                "technologyColor": "green"
+            },
+            {
+                "technologyName": "Tailwind",
+                "technologyColor": "blue"
             }
         ]
     }
