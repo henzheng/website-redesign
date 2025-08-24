@@ -1,26 +1,18 @@
 [
     {
         "title": "Languages",
-        "imageUrl": "/images/heat-badge.png",
-        "imageName": "heat badge",
-        "description": "Python, TypeScript, JavaScript, C, R, HTML/CSS"
+        "description": "Python, TypeScript, JavaScript, C, R, Racket, HTML/CSS, JSX"
     },
     {
-        "title": "Frontend",
-        "imageUrl": "/images/knuckle-badge.png",
-        "imageName": "knuckle badge", 
-        "description": "React, Vue.js, Nuxt, Svelte, React Native, Tailwind CSS"
+        "title": "Frameworks & Libraries",
+        "description": "React (Next.js), React Native, Vue.js (Nuxt), Svelte, Tailwind CSS, Ionic, Django, Node.js (Express.js), FastAPI"
     },
     {
-        "title": "Backend & Cloud",
-        "imageUrl": "/images/dynamo-badge.png",
-        "imageName": "dynamo badge",
-        "description": "Django, Node.js, FastAPI, AWS (CDK, ECS, S3), Docker"
+        "title": "AI/ML Libraries",
+        "description": "LangChain, LangGraph, Pinecone, Weaviate, HuggingFace (transformers), NumPy, pandas, matplotlib"
     },
     {
-        "title": "AI/ML & Data",
-        "imageUrl": "/images/feather-badge.png",
-        "imageName": "feather badge",
-        "description": "LangChain, LangGraph, NumPy, pandas, HuggingFace, Pinecone"
+        "title": "Developer Tools & Platforms",
+        "description": "Git, Docker, AWS (ECR, ECS, Fargate, S3, CDK), NGINX, PostgreSQL, MongoDB, Supabase, Netlify, Vite, Expo"
     }
 ]

@@ -97,39 +97,39 @@ const technologies = [
 
 @media (max-width: 768px) {
   .hexagon {
-    width: 10vw;
-    height: 11.4236vw;
-    margin: 0.8vw;
+    width: 25vw !important;
+    height: 28.559vw !important;
+    margin: 2vw !important;
   }
 
   .hexagon-image {
-    width: 28px;
-    height: 28px;
+    width: 70px !important;
+    height: 70px !important;
   }
 
   .honeycomb-grid-odd {
-    margin-left: 5.2vw;
+    margin-left: 13vw !important;
   }
 
   .honeycomb-grid-even, .honeycomb-grid-third {
-    margin-top: -2.8vw;
+    margin-top: -7vw !important;
   }
 }
 
 @media (max-width: 480px) {
   .hexagon {
-    width: 15vw;
-    height: 17.4236vw;
-    margin: 1.2vw;
+    width: 37.5vw !important;
+    height: 43.559vw !important;
+    margin: 3vw !important;
   }
 
   .hexagon-image {
-    width: 24px;
-    height: 24px;
+    width: 60px !important;
+    height: 60px !important;
   }
 
   .honeycomb-grid-odd, .honeycomb-grid-even, .honeycomb-grid-third {
-    margin-left: 0;
+    margin-left: 0 !important;
     justify-content: center;
   }
 }

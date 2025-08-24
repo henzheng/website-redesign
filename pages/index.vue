@@ -12,7 +12,7 @@
                         </a>
                     </span>
                 </div>
-                <img class="w-48 h-48 md:w-56 md:h-56 object-cover rounded-2xl shadow-lg self-center md:self-auto" src="/Henry-Zheng.jpeg" alt="Henry Zheng headshot"/>
+                <img class="w-60 h-60 md:w-56 md:h-56 object-cover rounded-2xl shadow-lg self-center md:self-auto" src="/Henry-Zheng.jpeg" alt="Henry Zheng headshot"/>
             </div>
         </div>
         <div class="flex flex-col items-start gap-8 mt-12">

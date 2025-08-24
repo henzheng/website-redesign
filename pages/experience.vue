@@ -30,18 +30,16 @@ My professional experience spans software engineering roles at leading organizat
         <p class="fade text-sm font-nunito leading-7 text-gray-700 dark:text-gray-300 max-w-4xl">
 I work with modern technologies across the full development stack, from frontend frameworks to cloud infrastructure.
         </p>
-        <HoneycombGrid/>
+        <SkillsGrid class="fade"/>
     </div>
 </template>
 
 <script setup>
-import skills from "~/assets/content/skills.json";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-console.log(skills)
 onMounted(() => {
     gsap.utils.toArray(".fade").forEach(element => {
         gsap.from(element, {
