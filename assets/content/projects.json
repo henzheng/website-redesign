@@ -3,8 +3,8 @@
         "url": "https://coursetable.com",
         "imagePath": "/images/CourseTable.png",
         "projectName": "CourseTable",
-        "projectRole": "Full Stack Developer",
-        "description": "CourseTable is an intuitive and helpful course-searching platform used by thousands of Yale students to browse courses, create makeshift schedules, and more. ",
+        "projectRole": "Software Engineer",
+        "description": "Yale's premier course search platform serving 6K+ undergraduates. Enhanced with location-based search mapping 156 campus buildings and integrated campus map visualization for course planning.",
         "technologies": [
             {
                 "technologyName": "React",
@@ -25,36 +25,11 @@
         ]
     },
     {
-        "url": "https://yhack.org",
-        "imagePath": "/images/YHack2024.png",
-        "projectName": "YHack",
-        "projectRole": "Developer",
-        "description": "YHack is Yale’s premier annual hackathon, uniting students from across the nation to innovate and collaborate on software engineering projects. ",
-        "technologies": [
-            {
-                "technologyName": "Vue",
-                "technologyColor": "green"
-            },
-            {
-                "technologyName": "Javascript",
-                "technologyColor": "yellow"
-            },
-            {
-                "technologyName": "HTML",
-                "technologyColor": "red"
-            },
-            {
-                "technologyName": "CSS",
-                "technologyColor": "blue"
-            }
-        ]
-    },
-    {
         "url": "https://siths-catalog.netlify.app/",
         "imagePath": "/images/SITHS_Course_Catalog_2.png",
-        "projectName": "SI Tech Course Selection",
-        "projectRole": "Full Stack Developer",
-        "description": "The lead project of my high school’s 2023-2024 development cycle, this TypeScript and Python-powered course selection platform streamlined enrollment for 1K+ students.",
+        "projectName": "Course Selection Platform",
+        "projectRole": "Technical Lead",
+        "description": "Full-stack web application that migrated 1.3K+ students from Naviance to a custom-built platform. Features TypeScript migration, Chart.js analytics, and seamless stakeholder collaboration.",
         "technologies": [
             {
                 "technologyName": "Vue",
@@ -65,7 +40,36 @@
                 "technologyColor": "green"
             },
             {
-                "technologyName": "Tailwind",
+                "technologyName": "TypeScript",
+                "technologyColor": "blue"
+            },
+            {
+                "technologyName": "PostgreSQL",
+                "technologyColor": "blue"
+            }
+        ]
+    },
+    {
+        "url": "https://yhack.org",
+        "imagePath": "/images/Yhack2024.png",
+        "projectName": "YHack",
+        "projectRole": "Developer",
+        "description": "YHack is Yale's premier annual hackathon, officially registered with Major League Hacking (MLH). Unites students from across the nation to innovate and collaborate on software engineering projects.",
+        "technologies": [
+            {
+                "technologyName": "Vue",
+                "technologyColor": "green"
+            },
+            {
+                "technologyName": "JavaScript",
+                "technologyColor": "yellow"
+            },
+            {
+                "technologyName": "HTML",
+                "technologyColor": "red"
+            },
+            {
+                "technologyName": "CSS",
                 "technologyColor": "blue"
             }
         ]

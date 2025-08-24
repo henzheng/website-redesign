@@ -3,24 +3,24 @@
         "title": "Languages",
         "imageUrl": "/images/heat-badge.png",
         "imageName": "heat badge",
-        "description": "HTML, CSS, Javascript, Typescript, Python"
+        "description": "Python, TypeScript, JavaScript, C, R, HTML/CSS"
     },
     {
-        "title": "Frameworks",
+        "title": "Frontend",
         "imageUrl": "/images/knuckle-badge.png",
-        "imageName": "knuckle badge",
-        "description": "Nuxt.js, Vue.js, React, Express.js, Django"
+        "imageName": "knuckle badge", 
+        "description": "React, Vue.js, Nuxt, Svelte, React Native, Tailwind CSS"
     },
     {
-        "title": "Certifications",
+        "title": "Backend & Cloud",
         "imageUrl": "/images/dynamo-badge.png",
         "imageName": "dynamo badge",
-        "description": "TestDome Certified in Python and JS"
+        "description": "Django, Node.js, FastAPI, AWS (CDK, ECS, S3), Docker"
     },
     {
-        "title": "Collaboration",
+        "title": "AI/ML & Data",
         "imageUrl": "/images/feather-badge.png",
         "imageName": "feather badge",
-        "description": "Adaptable, Familiar with Git workflows"
+        "description": "LangChain, LangGraph, NumPy, pandas, HuggingFace, Pinecone"
     }
 ]

@@ -1,11 +1,11 @@
 <template>
     <div class="flex flex-col justify-center items-center w-full h-[350px] md:w-[350px]
                 rounded shadow-2xl bg-white dark:bg-slate-800">
-        <h3 class="font-poppins text-lg md:text-xl mt-10 mb-4">Send me a message!</h3>
+        <h3 class="font-nunito text-lg md:text-xl mt-10 mb-4">Send me a message!</h3>
         <form
               action="https://docs.google.com/forms/d/e/1FAIpQLSd4DhlVsmVRcgd0sKzOdg5ofAQcCwhv_ZBgn_wvE7tObK51GQ/formResponse"
               method="post" target="_blank"
-              autocomplete="off" class="font-poppins flex flex-col text-sm gap-4 w-3/4 h-3/4">
+              autocomplete="off" class="font-nunito flex flex-col text-sm gap-4 w-3/4 h-3/4">
             <input
                 name="entry.268733639"
                 class="outline-none p-2 rounded-lg bg-slate-100 dark:bg-slate-600" 

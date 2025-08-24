@@ -21,11 +21,11 @@
                 :key="index"
             />
         </div>
-        <h3 class="font-satoshi text-base text-center pb-0 mb-[-2rem] mt-14 md:my-6 md:mr-[2rem]">
+        <h3 class="font-nunito text-base text-center pb-0 mb-[-2rem] mt-14 md:my-6 md:mr-[2rem]">
             Want to see more of my work? View my 
             <a target="_blank" class="text-[#00a6ed] inline-block transition ease-in-out hover:translate-y-[-2.5px]" 
-               href="https://github.com/nullZheng">
-               Github profile!
+               href="https://github.com/henzheng">
+               GitHub profile!
             </a>
         </h3>
     </div>

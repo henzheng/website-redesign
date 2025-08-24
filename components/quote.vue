@@ -1,7 +1,7 @@
 <template>
-    <blockquote class="font-satoshi text-sm md:self-start md:text-sm md:w-auto">
+    <blockquote class="text-sm font-nunito leading-7 text-gray-700 dark:text-gray-300 max-w-4xl">
         "{{ quote }}"
-        <cite>- {{ author }}, <span class="not-italic">{{ source }}</span></cite>
+        <cite class="block mt-2 text-sm font-nunito leading-7 text-gray-700 dark:text-gray-300">- {{ author }}, <span class="not-italic">{{ source }}</span></cite>
     </blockquote>
 </template>
 

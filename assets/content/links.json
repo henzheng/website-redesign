@@ -1,22 +1,18 @@
 [
     {
-        "emoji": "✨",
         "url": "/about",
-        "text": "Learn more about me."
+        "text": "About Me"
     },
     {
-        "emoji": "🚀",
         "url": "/experience",
-        "text": "My skills & experiences."
+        "text": "Experience & Skills"
     },
     {
-        "emoji": "🔍",
         "url": "/projects",
-        "text": "Explore my projects."
-    }
-    ,    {
-        "emoji": "📬",
+        "text": "Featured Projects"
+    },
+    {
         "url": "/contact",
-        "text": "Get in touch."
+        "text": "Contact"
     }
 ]

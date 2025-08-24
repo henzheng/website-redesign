@@ -1,6 +1,7 @@
 <template>
-    <div class="pt-[6.5rem] px-0 mt-0 mx-[2rem] w-fit">
-        <div class="flex flex-col items-center justify-center">
+    <div class="pt-[6.5rem] px-8 pb-16 mt-0 mx-auto max-w-6xl">
+        <!-- Hero Section -->
+        <section class="flex flex-col items-center justify-center mb-16">
             <Heading text="01. My Journey"/>
             <Quote 
                 class="fade"
@@ -8,30 +9,42 @@
                 author="Professor Oak"
                 source="Pokémon Yellow"
             />
-            <img class="fade mt-4 md:w-[60%] md:mr-0" src="/images/pla-camp.png" alt="camp"/>
-        </div>
-        <div class="flex flex-col justify-between w-full md:items-center gap-8">
-            <p class="fade text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
-                Hey, Henry here!
-                My intro to programming came from coding on the TI-calculator.
-                This experience sparked my interest in tech, leading me to learn <u>Python</u> as my first programming language.
-                Many of my early projects are bots made using <u>Discord.py</u>, an API wrapper for Discord. 
-                In recent years, however, I've been more interested in all aspects of <u>web development</u>. 
-                Fun fact: this website was built using <u>Nuxt.js</u> and <u>TailwindCSS</u>!
-            </p>
-            <Progess class="flex-wrap justify-center"/>
-            <div class="flex flex-col md:flex-row gap-[2.75rem] w-full">
-                <div class="flex flex-col gap-6 md:gap-[2rem] mb-4">
-                    <h2 class="fade font-sentient text-2xl italic self-start mt-0">Excelsior. Ever Upward.</h2>
-                    <img class="md:hidden fade w-[225px] h-fit self-center aspect-auto rounded" src="/images/pxy-lumiose-city-street.jpg" alt="city street"/>
-                    <p class="fade text-sm mt-6 font-poppins leading-7 md:mt-2 md:w-auto">
-                        "Excelsior"—my motto from the vibrant streets of New York—reflects my approach to programming.
-                        With each project, I strive to <u>learn something new, push boundaries, and deliver exceptional work.</u>
-                        The future holds endless possibilities for growth, and I can't wait to see where this journey takes me.
-                    </p>
+            <img class="fade mt-8 md:w-[60%] md:mr-0" src="/images/pla-camp.png" alt="camp"/>
+        </section>
+
+        <!-- Main Content -->
+        <div class="flex flex-col justify-between w-full md:items-center">
+            <!-- Introduction Section -->
+            <section class="mb-16">
+                <p class="fade text-sm font-nunito leading-7 max-w-4xl text-gray-700 dark:text-gray-300">
+                    I'm Henry, a software engineer at Yale University pursuing a joint degree in Computer Science and Economics.
+                    My programming journey began with calculator scripts, which led me to discover Python.
+                    Early projects included Discord bots and automation tools that taught me the fundamentals.
+                    Now I focus on <u>full-stack web development</u> and <u>AI systems</u>, working with technologies like React, Django, and AWS.
+                    This website showcases my work using <u>Nuxt.js</u> and <u>TailwindCSS</u>!
+                </p>
+            </section>
+
+            <!-- Stats Section -->
+            <section class="mb-16">
+                <Progess class="flex-wrap justify-center"/>
+            </section>
+
+            <!-- Philosophy Section -->
+            <section class="mb-16">
+                <div class="flex flex-col md:flex-row gap-12 w-full max-w-5xl">
+                    <div class="flex flex-col gap-8 flex-1">
+                        <h2 class="fade font-sentient text-3xl italic self-start text-gray-800 dark:text-gray-200">Excelsior. Ever Upward.</h2>
+                        <img class="md:hidden fade w-[280px] h-fit self-center aspect-auto rounded-lg shadow-md" src="/images/pxy-lumiose-city-street.jpg" alt="city street"/>
+                        <p class="fade text-sm font-nunito leading-7 text-gray-700 dark:text-gray-300">
+                            "Excelsior" represents my commitment to continuous improvement in software engineering.
+                            Each project presents opportunities to <u>master new technologies, solve complex problems, and create meaningful impact.</u>
+                            From building platforms that serve thousands of users to developing cutting-edge AI systems, I'm excited about what's ahead.
+                        </p>
+                    </div>
+                    <img class="hidden md:block fade w-[15vw] max-w-[20rem] self-center rounded-lg shadow-md" src="/images/pxy-lumiose-city-street.jpg" alt="city street"/>
                 </div>
-                <img class="hidden md:block fade w-[15vw] max-w-[20rem] self-center rounded" src="/images/pxy-lumiose-city-street.jpg" alt="city street"/>
-            </div>
+            </section>
         </div>
     </div>
 </template>

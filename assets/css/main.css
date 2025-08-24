@@ -37,3 +37,40 @@
     font-display: swap;
     src: url(~/assets/fonts/BespokeSerif-Regular.woff2) format('woff2');
 }
+
+@font-face {
+    font-family: Nunito;
+    font-weight: 400;
+    font-display: swap;
+    src: url(~/assets/fonts/nunito-v31-latin-regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-weight: 500;
+    font-display: swap;
+    src: url(~/assets/fonts/nunito-v31-latin-500.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: Nunito;
+    font-weight: 600;
+    font-display: swap;
+    src: url(~/assets/fonts/nunito-v31-latin-600.woff2) format('woff2');
+}
+
+/* Prevent background overflow issues */
+html, body {
+    overscroll-behavior: none;
+    height: 100%;
+}
+
+body {
+    background-color: #f3f4f6; /* fallback for light mode */
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111827; /* fallback for dark mode */
+    }
+}

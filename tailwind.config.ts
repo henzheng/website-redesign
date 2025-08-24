@@ -11,7 +11,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                "poppins": "Poppins, sans-serif",
+                "nunito": ["Nunito", "sans-serif"],
                 "bogart": "Bogart, sans-serif",
                 "mallory": ["Mallory", "sans-serif"],
                 "satoshi": ["Satoshi", "sans-serif"],

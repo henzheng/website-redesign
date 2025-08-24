@@ -6,13 +6,13 @@
             </a>
         </div>
         <div class="flex flex-col w-[80%] md:w-1/2">
-            <h2 class="font-poppins text-lg">{{ projectName }}</h2>
-            <p class="font-poppins">{{ projectRole }}</p>
+            <h2 class="font-nunito text-lg">{{ projectName }}</h2>
+            <p class="text-sm font-nunito leading-7 text-gray-700 dark:text-gray-300">{{ projectRole }}</p>
             <div class="bg-slate-800 opacity-80 rounded-sm text-white p-3 my-4">
-                <p class="text-white font-poppins text-sm">{{ description }}</p>
+                <p class="text-white text-sm font-nunito leading-7">{{ description }}</p>
             </div>
             <ul class="flex flex-row gap-4">
-                <li class="font-poppins text-black px-2 py-1 rounded-md text-sm" :class="`bg-${tech.technologyColor}-300`"
+                <li class="font-nunito text-black px-2 py-1 rounded-md text-sm" :class="`bg-${tech.technologyColor}-300`"
                     v-for="(tech, index) in technologies" :id="index.toString()">
                     {{ tech.technologyName }}
                 </li>

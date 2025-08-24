@@ -1,46 +1,49 @@
 [   
     {
-        "position": "Project Manager",
-        "url": "https://www.siths.org/",
-        "workplace": "Staten Island Tech",
-        "timeframe": "Sep 2023 - Present",
+        "position": "Software Development Engineer Intern",
+        "url": "https://aws.amazon.com/",
+        "workplace": "Amazon Web Services",
+        "timeframe": "May 2025 - Aug 2025",
         "description": [
-            "Lead development of school-wide apps improving quality of life",
-            "Delegate tasks; manage GitHub repos; maintain & deploy apps"
+            "Owned end-to-end development of an LLM human evaluation platform for Amazon Q, implementing human preference scoring for reinforcement learning feedback across 10+ science teams",
+            "Architected secure data infrastructure processing TBs to petabytes of daily AI chat logs within production VPC, ensuring full compliance with App Security standards",
+            "Integrated full AWS service stack (ECR, ECS, Fargate, S3) using CDK, delivering scalable cloud-native CI/CD pipeline with modular infrastructure-as-code patterns"
+        ],
+        "id": "AWS"
+    },
+    {
+        "position": "Software Engineer",
+        "url": "https://coursetable.com/",
+        "workplace": "CourseTable",
+        "timeframe": "Sep 2024 - Present",
+        "description": [
+            "Drive feature development and platform optimization for Yale's premier course search tool serving 6K+ undergraduates with 50K+ monthly searches",
+            "Shipped advanced location-based search feature by mapping 156 campus buildings to 4K+ course entries with efficient caching layer for data extraction",
+            "Extending visual schedule planner with campus map view using OpenStreetMap, rendering course locations with commute time estimates between classes"
+        ],
+        "id": "CT"
+    },
+    {
+        "position": "Technical Lead & Software Engineer",
+        "url": "https://www.siths.org/",
+        "workplace": "Staten Island Technical HS",
+        "timeframe": "Sep 2022 - Jun 2024",
+        "description": [
+            "Led development of integrated ecosystem serving 1.5K+ users, architecting and building 4 interconnected web applications for course selection and attendance",
+            "Engineered and deployed custom OAuth SSO service from scratch, enabling seamless authentication across application ecosystem using school credentials",
+            "Maintained servers running NGINX and Ubuntu while authoring comprehensive documentation for system administration"
         ],
         "id": "SITHS"
     },
     {
-        "position": "Web Dev Intern",
-        "url": "https://www.tygasmart.com/",
-        "workplace": "TygaSmart Systems",
-        "timeframe": "Feb 2023 - Apr 2023",
-        "description": [
-            "Collaborate with dev. team in Mexico; implement web app layouts",
-            "Compile collection of furniture assets for firm’s digital floor planner"
-        ],
-        "id": "TS"
-    },
-    {
-        "position": "Lead Developer",
+        "position": "Software Developer",
         "url": "https://bruzzeses.com/",
-        "workplace": "Bruzzese’s",
+        "workplace": "Bruzzese's",
         "timeframe": "Sep 2022 - Nov 2022",
         "description": [
-            "Built a local order management system for a local business",
-            "Conducted extensive testing and debugging to ensure robustness"
+            "Developed custom POS system for catering orders from scratch, implementing real-time inventory tracking and automated order processing workflows",
+            "Built scalable solution using Supabase backend for affordability and reliability, reducing order processing time by 60% for local business operations"
         ],
         "id": "BG"
-    },
-    {
-        "position": "IT Intern",
-        "url": "https://agscard.com/",
-        "workplace": "AGS Grading",
-        "timeframe": "Jul 2022 - Aug 2022",
-        "description": [
-            "Utilize AV editing to assist with ad production & customer acquisition",
-            "Research competitors and present insights to peers & supervisors"
-        ],
-        "id": "AGS"
     }
 ]
